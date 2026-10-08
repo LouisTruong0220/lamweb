@@ -1,0 +1,87 @@
+{
+  "slug": "hoang-ha-global",
+  "dia_chi_web": "https://hoang-ha-global.pages.dev",
+  "cong_ty": {
+    "ten": "Công ty TNHH Hoàng Hà Global",
+    "ten_ngan": "Hoàng Hà Global",
+    "dong_tren_ten": "",
+    "khau_hieu": "",
+    "mo_ta_ngan": "Cốc, bình giữ nhiệt và ly uống nước dùng hằng ngày.",
+    "gioi_thieu": [],
+    "tieu_de_gioi_thieu": "",
+    "anh_gioi_thieu": "",
+    "logo": ""
+  },
+  "lien_he": {
+    "dien_thoai": "0866153946",
+    "zalo": "",
+    "facebook": "",
+    "ten_facebook": "",
+    "email": "",
+    "dia_chi": "",
+    "ban_do": "",
+    "gio_mo_cua": "",
+    "loi_moi": ""
+  },
+  "giao_dien": {
+    "mau_chu_dao": "#1F3FA0",
+    "phong_cach": "hien-dai",
+    "anh_bia": "coc-su-xanh",
+    "vi_tri_anh_bia": "50% 50%",
+    "mo_ta_anh_bia": "Cốc sứ xanh dương đặt trên bàn gỗ"
+  },
+  "diem_noi_bat": [],
+  "quy_trinh": [],
+  "san_pham": [
+    {
+      "ma": "coc-su-xanh",
+      "ten": "Cốc sứ xanh",
+      "danh_muc": "",
+      "gia": "",
+      "chat_lieu": "",
+      "kich_thuoc": "",
+      "mau_sac": "Xanh dương, lòng trắng",
+      "xuat_xu": "",
+      "mo_ta": "Cốc có quai, men xanh dương bóng, lòng cốc màu trắng.",
+      "thong_tin": {},
+      "anh": [
+        "coc-su-xanh"
+      ],
+      "noi_bat": true
+    },
+    {
+      "ma": "binh-giu-nhiet",
+      "ten": "Bình giữ nhiệt trắng",
+      "danh_muc": "",
+      "gia": "",
+      "chat_lieu": "",
+      "kich_thuoc": "",
+      "mau_sac": "Trắng",
+      "xuat_xu": "",
+      "mo_ta": "Bình dáng trụ thon, nắp vặn, thân trắng bóng.",
+      "thong_tin": {},
+      "anh": [
+        "binh-giu-nhiet"
+      ],
+      "noi_bat": true
+    },
+    {
+      "ma": "ly-gai-den",
+      "ten": "Ly gai đen có ống hút",
+      "danh_muc": "",
+      "gia": "",
+      "chat_lieu": "",
+      "kich_thuoc": "",
+      "mau_sac": "Đen",
+      "xuat_xu": "",
+      "mo_ta": "Ly có nắp và ống hút, bề mặt vân gai kim cương màu đen.",
+      "thong_tin": {},
+      "anh": [
+        "ly-gai-den"
+      ],
+      "noi_bat": true
+    }
+  ],
+  "nhan": {},
+  "chan_trang": ""
+}
