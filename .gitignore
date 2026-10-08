@@ -1,0 +1,12 @@
+# Web dựng ra — dựng lại được từ web.json + anh/ bất cứ lúc nào
+khach-hang/*/dist/
+khach-hang/*/soi/
+node_modules/
+package-lock.json
+__pycache__/
+*.pyc
+.wrangler/
+# Không bao giờ commit khoá
+.env
+.env.*
+*.token

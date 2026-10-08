@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python cong-cu/*)",
+      "Bash(python3 cong-cu/*)",
+      "Bash(node cong-cu/*)",
+      "Bash(npx --yes wrangler@4 *)",
+      "Bash(npm i --no-save playwright*)",
+      "Bash(npx playwright install*)",
+      "Bash(git status*)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git pull *)",
+      "Bash(git push origin *)",
+      "Bash(git mv *)",
+      "Bash(git log*)",
+      "Bash(ls *)",
+      "Bash(mkdir -p khach-hang/*)",
+      "Bash(cp *)"
+    ]
+  }
+}
