@@ -1,0 +1,32 @@
+{
+ "binh-giu-nhiet": {
+  "nguon": "khach-hang/cong-ty-abc/anh-goc/binh-giu-nhiet.jpg",
+  "mtime": 1791449686,
+  "rong": 1932,
+  "cao": 2576,
+  "huong": "doc",
+  "mau_trung_binh": "#758193",
+  "logo": false,
+  "kb_640": 17
+ },
+ "coc-su-xanh": {
+  "nguon": "khach-hang/cong-ty-abc/anh-goc/coc-su-xanh.jpg",
+  "mtime": 1791449686,
+  "rong": 1932,
+  "cao": 2576,
+  "huong": "doc",
+  "mau_trung_binh": "#81796F",
+  "logo": false,
+  "kb_640": 43
+ },
+ "ly-gai-den": {
+  "nguon": "khach-hang/cong-ty-abc/anh-goc/ly-gai-den.jpg",
+  "mtime": 1791449686,
+  "rong": 1932,
+  "cao": 2576,
+  "huong": "doc",
+  "mau_trung_binh": "#647599",
+  "logo": false,
+  "kb_640": 26
+ }
+}
