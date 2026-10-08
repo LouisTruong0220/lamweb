@@ -1,0 +1,82 @@
+{
+ "den-may-chuong": {
+  "nguon": "khach-hang/may-tre-coi/anh-goc/den-may-chuong.jpg",
+  "mtime": 1791458567,
+  "rong": 240,
+  "cao": 230,
+  "huong": "vuong",
+  "mau_trung_binh": "#BEB5A5",
+  "logo": false,
+  "kb_640": 17
+ },
+ "den-may-tron": {
+  "nguon": "khach-hang/may-tre-coi/anh-goc/den-may-tron.jpg",
+  "mtime": 1791458567,
+  "rong": 210,
+  "cao": 190,
+  "huong": "vuong",
+  "mau_trung_binh": "#A8BDC7",
+  "logo": false,
+  "kb_640": 10
+ },
+ "gio-dan": {
+  "nguon": "khach-hang/may-tre-coi/anh-goc/gio-dan.jpg",
+  "mtime": 1791458567,
+  "rong": 340,
+  "cao": 160,
+  "huong": "ngang",
+  "mau_trung_binh": "#A88862",
+  "logo": false,
+  "kb_640": 19
+ },
+ "long-ban-bay": {
+  "nguon": "khach-hang/may-tre-coi/anh-goc/long-ban-bay.jpg",
+  "mtime": 1791458567,
+  "rong": 720,
+  "cao": 420,
+  "huong": "ngang",
+  "mau_trung_binh": "#ADA183",
+  "logo": false,
+  "kb_640": 90
+ },
+ "long-ban-chong": {
+  "nguon": "khach-hang/may-tre-coi/anh-goc/long-ban-chong.jpg",
+  "mtime": 1791458567,
+  "rong": 250,
+  "cao": 510,
+  "huong": "doc",
+  "mau_trung_binh": "#B0AA98",
+  "logo": false,
+  "kb_640": 50
+ },
+ "long-ban-chop": {
+  "nguon": "khach-hang/may-tre-coi/anh-goc/long-ban-chop.jpg",
+  "mtime": 1791458567,
+  "rong": 260,
+  "cao": 430,
+  "huong": "doc",
+  "mau_trung_binh": "#A29C7B",
+  "logo": false,
+  "kb_640": 47
+ },
+ "tui-moc": {
+  "nguon": "khach-hang/may-tre-coi/anh-goc/tui-moc.jpg",
+  "mtime": 1791458567,
+  "rong": 180,
+  "cao": 420,
+  "huong": "doc",
+  "mau_trung_binh": "#7C6D67",
+  "logo": false,
+  "kb_640": 9
+ },
+ "tui-theu": {
+  "nguon": "khach-hang/may-tre-coi/anh-goc/tui-theu.jpg",
+  "mtime": 1791458567,
+  "rong": 300,
+  "cao": 540,
+  "huong": "doc",
+  "mau_trung_binh": "#9F9993",
+  "logo": false,
+  "kb_640": 24
+ }
+}
