@@ -79,19 +79,28 @@ Màu nhạt (vàng, hồng phấn) vẫn được: script tự sinh bản sẫm 
 Phong cách (`giao_dien.phong_cach`): `truyen-thong` · `hien-dai` · `sang-trong` — chọn theo
 `references/thiet-ke.md`. Anh Trường không nói gì thì tự chọn, **không hỏi**.
 
-## Bước 5 — Viết `web.json`
+## Bước 5 — Phân tích ảnh rồi viết `web.json`
 
-Điền `khach-hang/<slug>/web.json` theo mẫu. Văn phong: `references/viet-noi-dung.md`.
+Anh Trường thường chỉ gửi tên + ảnh. **Claude tự soạn đủ nội dung** cho một trang đầy đặn,
+theo `references/viet-noi-dung.md` (bắt buộc đọc: ba nguồn được dùng, bốn thứ cấm bịa).
+
+1. Mở bảng xem, **lập phiếu từng sản phẩm** (dáng · màu · bề mặt · chi tiết · bối cảnh ảnh).
+2. Rút ra chân dung doanh nghiệp → `dong_tren_ten`, phong cách, màu.
+3. Điền theo thứ tự trang hiện ra:
+   `tieu_de_bia` + `tieu_de_bia_nhan` → `khau_hieu` → `diem_bia` (3 ý) → `diem_noi_bat` (3–4, có `anh`)
+   → `san_pham[].dac_diem` (3 ý) + `mo_ta` → `gioi_thieu` (đoạn đầu ≤ 35 chữ) → `hoi_dap` (2–4).
+4. Ghi `_noi_dung_tu_soan` liệt kê phần tự soạn.
+
+Mỗi mục trên trang chỉ hiện khi đủ dữ liệu (bảng ở `references/thiet-ke.md`). Trang càng nhiều
+mục càng giống website mẫu. Nhưng `so_lieu` và `danh_gia` **chỉ điền khi có thật**.
+
 Những điểm hay sai:
-- `ma` sản phẩm: ngắn (2–5 từ không dấu) — thành link `/san-pham/<ma>/` gửi qua Zalo.
-- `gia`: **chỉ ghi khi được cho**, ghi đúng như doanh nghiệp viết ("850.000 đ", "từ 1,2 triệu").
-  Không có giá → để trống, web tự hiện "Liên hệ báo giá".
-- `noi_bat: true` cho 1–4 món đẹp nhất → lên đầu lưới.
-- `danh_muc`: chỉ đặt khi có ≥ 2 nhóm và ≥ 5 sản phẩm; ít hơn thì để trống hết.
-- `zalo` trống → web dùng `dien_thoai` cho nút Zalo (ở Việt Nam hầu như số nào cũng có Zalo).
-  Nếu anh Trường nói rõ số đó không có Zalo thì báo lại.
-- Mục nào không có thông tin → **để trống / mảng rỗng**. Web tự ẩn mục đó.
-  Tuyệt đối không viết chữ giữ chỗ — cổng kiểm tra sẽ chặn.
+- `ma` sản phẩm: ngắn (2–5 từ không dấu). Nó thành link `/san-pham/<ma>/` gửi qua Zalo.
+- `gia`: **chỉ ghi khi được cho**. Không có thì để trống, web hiện "Liên hệ báo giá".
+- `noi_bat: true` cho 2–4 món đẹp nhất. Các món này lên ảnh bìa xoay vòng, tab Khám phá và đầu lưới.
+- `danh_muc`: chỉ đặt khi có ≥ 2 nhóm và ≥ 5 sản phẩm.
+- `zalo` trống thì web dùng `dien_thoai` cho nút Zalo.
+- Không viết chữ giữ chỗ. Cổng kiểm tra sẽ chặn.
 
 ## Bước 6 — Dựng, kiểm, soi
 
@@ -104,8 +113,11 @@ Rồi **soi bằng mắt ở cỡ điện thoại** (nên làm, nhưng không ch
 npm i --no-save playwright >/dev/null 2>&1 && npx playwright install --with-deps chromium >/dev/null 2>&1
 node cong-cu/chup-man-hinh.mjs khach-hang/<slug>
 ```
-Đọc `khach-hang/<slug>/soi/dt-trang-chu-man-dau.png` và `dt-trang-chu.png`. Hỏi mình:
-ảnh bìa có thấy rõ sản phẩm không (sai thì đổi `anh_bia` / `vi_tri_anh_bia`) · tên có bị
+Đọc `khach-hang/<slug>/soi/dt-trang-chu-man-dau.png` (màn đầu), rồi lần lượt `dt-trang-chu-muc-NN.png`
+(mỗi mục một ảnh đúng khung điện thoại) và `mt-trang-chu.png` (máy tính). Ảnh toàn trang
+`dt-trang-chu.png` chỉ để xem bố cục — ô ảnh trống trong đó là giới hạn của Chromium, KHÔNG phải lỗi.
+Hỏi mình:
+ảnh bìa có thấy rõ sản phẩm không (sai thì đổi `anh_bia` / bỏ `noi_bat` của món có ảnh xấu) · tên có bị
 xuống dòng xấu không · ảnh nào lệch tông hẳn so với phần còn lại.
 
 ## Bước 7 — Đưa lên mạng
@@ -135,6 +147,7 @@ và nói anh Trường bấm gộp (merge).
 https://gom-minh-long.pages.dev
 
 • 12 sản phẩm, 3 nhóm · màu xanh men lam lấy từ logo
+• Giới thiệu, điểm nổi bật, hỏi đáp tôi soạn từ ảnh — nhờ đối tác đọc lại
 • Nút Gọi / Zalo / Chỉ đường dính đáy màn hình
 • Thiếu giá 7 món → đang hiện "Liên hệ báo giá"
 • Ảnh "binh-07" hơi tối — có ảnh khác thì gửi tôi thay

@@ -23,8 +23,10 @@ Anh Trường thường dùng **Claude Code trên điện thoại** (phiên ch�
 
 ## Luật cứng
 
-1. **Không bịa thông tin doanh nghiệp.** Năm thành lập, giải thưởng, xuất khẩu, chất liệu, giá,
-   kích thước — chỉ ghi khi được cho. Thiếu thì để trống (web tự ẩn) và báo lại.
+1. **Tự soạn nội dung từ ảnh — nhưng không bịa.** Được viết điều anh Trường/đối tác nói, điều
+   THẤY RÕ trong ảnh, và điều đúng theo bản chất loại hàng. Cấm tự viết con số, thành tích, cam
+   kết, lời khách, chất liệu đoán mò. Chi tiết: `.claude/skills/lam-web/references/viet-noi-dung.md`.
+   Phần tự soạn ghi vào `_noi_dung_tu_soan` và nhắc anh Trường đưa đối tác đọc lại.
 2. **Nền web luôn trắng.** Màu doanh nghiệp chỉ để nhấn. Chọn màu qua `cong-cu/chon-mau.py`,
    không gõ tay mã màu vào CSS.
 3. **Không sửa `cong-cu/khung/giao-dien.css` cho riêng một doanh nghiệp.** Khung dùng chung —

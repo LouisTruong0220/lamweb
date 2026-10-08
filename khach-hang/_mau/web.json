@@ -2,14 +2,18 @@
   "slug": "ten-doanh-nghiep",
   "dia_chi_web": "",
   "cong_ty": {
-    "ten": "Tên đầy đủ trên giấy phép",
-    "ten_ngan": "Tên gọi ngắn, hiện trên đầu trang",
+    "ten": "",
+    "ten_ngan": "",
     "dong_tren_ten": "",
+    "nhan_badge": "",
+    "tieu_de_bia": "",
+    "tieu_de_bia_nhan": "",
     "khau_hieu": "",
+    "diem_bia": [],
     "mo_ta_ngan": "",
     "gioi_thieu": [],
-    "tieu_de_gioi_thieu": "",
     "anh_gioi_thieu": "",
+    "phu_de_vi_sao": "",
     "logo": ""
   },
   "lien_he": {
@@ -27,17 +31,20 @@
     "mau_chu_dao": "#2F5D62",
     "phong_cach": "truyen-thong",
     "anh_bia": "",
-    "vi_tri_anh_bia": "50% 50%",
     "mo_ta_anh_bia": ""
   },
   "diem_noi_bat": [],
   "quy_trinh": [],
+  "hoi_dap": [],
+  "so_lieu": [],
+  "danh_gia": [],
   "san_pham": [
     {
       "ma": "",
       "ten": "",
       "danh_muc": "",
       "gia": "",
+      "dac_diem": [],
       "chat_lieu": "",
       "kich_thuoc": "",
       "mau_sac": "",
@@ -49,5 +56,6 @@
     }
   ],
   "nhan": {},
-  "chan_trang": ""
+  "chan_trang": "",
+  "_noi_dung_tu_soan": ""
 }

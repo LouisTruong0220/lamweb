@@ -128,6 +128,10 @@ def bang_mau(mau_chu_dao):
     goc = hex_sang_rgb(mau_chu_dao)
     dam = lam_dam_den(goc, 4.6)          # chữ nhấn, nút có chữ trắng
     dam_hon = lam_dam_den(goc, 7.5)      # tiêu đề nhấn, nút khi bấm
+    # Màu thứ hai cho dải gradient: xoay sắc độ 28° — cùng "họ" với màu chính nên
+    # dải chuyển màu mềm, không thành cầu vồng. Cũng ép ≥4,5 vì chữ trắng nằm trên nó.
+    h, l, s = colorsys.rgb_to_hls(*(c / 255 for c in dam))
+    dam_2 = lam_dam_den(tuple(c * 255 for c in colorsys.hls_to_rgb((h + 28 / 360) % 1, l, min(1, s * 1.1))), 4.6)
     nhat = tron(goc, TRANG, 0.07)        # nền mảng (gần như trắng, ngả màu nhẹ)
     nhat_vua = tron(goc, TRANG, 0.14)    # nền chip, nền ảnh sản phẩm
     vien = tron(goc, TRANG, 0.28)        # đường kẻ, viền thẻ
@@ -135,6 +139,8 @@ def bang_mau(mau_chu_dao):
         "chinh": rgb_sang_hex(goc),
         "dam": rgb_sang_hex(dam),
         "dam_hon": rgb_sang_hex(dam_hon),
+        "dam_2": rgb_sang_hex(dam_2),
+        "rgb": "%d,%d,%d" % tuple(round(c) for c in dam),   # cho rgba() của quầng sáng
         "nhat": rgb_sang_hex(nhat),
         "nhat_vua": rgb_sang_hex(nhat_vua),
         "vien": rgb_sang_hex(vien),

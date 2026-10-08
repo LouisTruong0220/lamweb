@@ -9,11 +9,19 @@ lụa, thêu, cói…): ít chi phí, không rành công nghệ.
 ## Website làm ra trông thế nào
 
 - **Ưu tiên điện thoại.** Khách của đối tác xem web chủ yếu trên điện thoại.
+- **Hiệu ứng theo website mẫu** (phong cách Webflow): chữ trượt lên khi cuộn, nút có mũi tên
+  trượt, nền lưới có quầng sáng trôi, thẻ ảnh sản phẩm tự xoay vòng, dải tên sản phẩm chạy ngang,
+  mục "Vì sao chọn" sáng dần theo cuộn, tab có thanh trượt, ảnh sản phẩm xoay quỹ đạo, chữ giới
+  thiệu sáng dần từng từ, hỏi đáp xổ ra, tên thương hiệu chữ khổng lồ ở chân trang.
+- **Chỉ cần tên + ảnh.** Claude tự phân tích ảnh để soạn khẩu hiệu, giới thiệu công ty, điểm nổi
+  bật, đặc điểm từng sản phẩm và hỏi đáp. Chỉ viết điều thấy trong ảnh hoặc đúng theo loại hàng.
+  Không bịa số liệu, giải thưởng hay lời khách. Phần tự soạn được đánh dấu để đối tác đọc lại.
 - **Nền trắng**, màu chủ đạo riêng cho từng doanh nghiệp. Màu lấy từ logo, theo màu doanh
   nghiệp chọn, hoặc theo chất liệu của nghề. Màu nhạt đến đâu thì nút bấm vẫn tự sẫm lại cho
   đủ rõ để đọc.
 - Thanh **Gọi · Zalo · Chỉ đường** dính đáy màn hình, nằm trong tầm ngón cái.
 - Lưới sản phẩm hai cột, lọc theo nhóm bằng cách vuốt ngang.
+- Form **Nhận báo giá** soạn sẵn tin nhắn rồi mở Zalo / SMS. Không cần máy chủ, không thu dữ liệu.
 - Mỗi sản phẩm có **trang riêng**: ảnh vuốt ngang, nút **"Hỏi giá qua Zalo"** (tự chép sẵn tên
   sản phẩm để khách dán vào Zalo), nút **Chia sẻ** gửi Zalo/Messenger một chạm.
 - Dán link sản phẩm vào Zalo sẽ hiện **ảnh xem trước** đẹp.

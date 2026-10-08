@@ -9,7 +9,7 @@ Khung giao diện (`cong-cu/khung/giao-dien.css`) đã được soi kỹ ở c�
 |---|---|---|
 | Màu chủ đạo | `giao_dien.mau_chu_dao` | nút, chữ nhấn, viền, nền nhạt các mục, thanh địa chỉ trình duyệt |
 | Phong cách | `giao_dien.phong_cach` | phông tiêu đề + độ bo góc |
-| Ảnh bìa | `giao_dien.anh_bia` + `vi_tri_anh_bia` | ấn tượng đầu tiên trên điện thoại |
+| Ảnh bìa | `giao_dien.anh_bia` + các món `noi_bat` | thẻ ảnh xoay vòng ở màn đầu tiên |
 | Thứ tự sản phẩm | `noi_bat: true` | món nào lên đầu lưới |
 | Mục nào hiện | để trống = ẩn | độ dài trang |
 
@@ -59,23 +59,34 @@ màu viền mỏng) thì dùng `--hex` với màu mình thấy đúng hơn.
 - ảnh có **cả một nhóm sản phẩm** hoặc **nghệ nhân đang làm** thường tốt hơn một món đơn lẻ
 - tránh ảnh có chữ/watermark to, ảnh chụp màn hình, ảnh danh thiếp
 
-Khung bìa tự theo hướng ảnh (dọc 4:5 · vuông 1:1 · ngang 4:3) và **cắt mép** (object-fit: cover).
-Sản phẩm lệch về một phía → chỉnh `vi_tri_anh_bia` ("50% 30%" = lấy phần trên hơn;
-"30% 50%" = lệch trái). Soi lại bằng `chup-man-hinh.mjs`.
+Thẻ bìa xoay vòng: `anh_bia` trước, rồi ảnh đầu của các món `noi_bat`. Khung 4:5 trên điện thoại,
+1:1 trên máy tính, **cắt mép** (object-fit: cover) — chọn ảnh sản phẩm nằm giữa khung.
 
-Ảnh trong **thẻ sản phẩm** và **trang chi tiết** thì KHÔNG cắt (contain) — luôn thấy trọn món.
+Thẻ sản phẩm trong lưới cũng cắt mép (khung vuông) cho đều hàng. **Trang chi tiết** thì KHÔNG cắt
+(contain) — khách luôn thấy trọn món. Ảnh nào sản phẩm nằm sát mép thì cắt lại ảnh gốc cho cân rồi
+chạy lại `xu-ly-anh.py`.
 
-## Mục nào nên hiện
+## Tuyến nội dung trang chủ — mục nào hiện khi nào
 
-| Mục | Hiện khi |
-|---|---|
-| Điểm nổi bật | có 2–4 ý **thật** doanh nghiệp nói ra (vẽ tay, nhận khắc logo, ship toàn quốc…) |
-| Giới thiệu | có ít nhất 2 câu thông tin thật về xưởng/người làm |
-| Quy trình | doanh nghiệp kể quy trình, hoặc có ảnh các công đoạn |
-| Danh mục lọc | ≥ 5 sản phẩm và ≥ 2 nhóm |
+Theo website mẫu (phong cách Flock/Webflow). Thứ tự cố định; mục thiếu dữ liệu thì tự ẩn.
 
-Trang ngắn mà thật > trang dài mà bịa. Một trang chỉ có bìa + 6 sản phẩm + liên hệ là một
-trang tốt.
+| # | Mục | Hiệu ứng | Hiện khi |
+|---|---|---|---|
+| 1 | Bìa | nền lưới + quầng sáng trôi · chữ trượt lên · thẻ ảnh **xoay vòng ảnh sản phẩm**, nghiêng theo chuột · 2 nhãn nổi lắc lư (máy tính) | luôn có |
+| 2 | Dải chữ chạy | tên sản phẩm + nhóm chạy ngang vô tận | ≥ 3 tên |
+| 3 | Vì sao chọn | thẻ sáng dần theo vị trí cuộn; máy tính: khung ảnh dính bên phải đổi theo; điện thoại: ảnh mở ra ngay trong thẻ | `diem_noi_bat` ≥ 2 |
+| 4 | Khám phá sản phẩm | tab với viên thuốc trượt, khung trượt lên khi đổi tab | ≥ 2 sản phẩm có ảnh |
+| 5 | Tất cả sản phẩm | thẻ trượt lên lần lượt; máy tính: ảnh phóng + nghiêng khi rê chuột | luôn có |
+| 6 | Số liệu | số chạy từ 0 | `so_lieu` **thật** |
+| 7 | Quỹ đạo | ảnh sản phẩm xoay quanh logo, chạm để xem | ≥ 4 sản phẩm có ảnh |
+| 8 | Lời khách | 3 cột cuộn dọc vô tận | `danh_gia` **thật** ≥ 2 |
+| 9 | Giới thiệu | chữ đoạn đầu sáng dần từng từ theo cuộn | `gioi_thieu` |
+| 10 | Quy trình | các bước đánh số trượt lên | `quy_trinh` |
+| 11 | Hỏi đáp | xổ ra/thu vào, dấu + xoay thành − | `hoi_dap` |
+| 12 | Nhận báo giá | form soạn sẵn tin nhắn → mở Zalo / SMS (không cần máy chủ) | có SĐT hoặc Zalo |
+| — | Chân trang | tên thương hiệu chữ khổng lồ mờ dần, tự co cho vừa | luôn có |
+
+Mọi hiệu ứng tắt khi điện thoại bật "Giảm chuyển động". Khi JS không chạy, nội dung vẫn hiện đủ.
 
 ## Những thứ đã làm sẵn cho điện thoại — đừng phá
 

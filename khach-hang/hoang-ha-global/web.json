@@ -4,13 +4,25 @@
   "cong_ty": {
     "ten": "Công ty TNHH Hoàng Hà Global",
     "ten_ngan": "Hoàng Hà Global",
-    "dong_tren_ten": "",
-    "khau_hieu": "",
-    "mo_ta_ngan": "Cốc, bình giữ nhiệt và ly uống nước dùng hằng ngày.",
-    "gioi_thieu": [],
+    "dong_tren_ten": "Cốc sứ · bình giữ nhiệt · ly có ống hút",
+    "khau_hieu": "Cốc sứ, bình giữ nhiệt và ly có ống hút cho nhà, văn phòng và những chuyến đi.",
+    "mo_ta_ngan": "Hoàng Hà Global: cốc sứ men xanh, bình giữ nhiệt và ly vân gai có ống hút. Xem ảnh thật, hỏi giá nhanh qua Zalo.",
+    "gioi_thieu": [
+      "Hoàng Hà Global cung cấp cốc sứ, bình giữ nhiệt và ly có ống hút — những món đồ uống dùng mỗi ngày ở nhà, ở văn phòng hay mang theo bên mình.",
+      "Mỗi mẫu trên trang đều là ảnh chụp chính sản phẩm, để Quý khách thấy đúng màu, đúng dáng trước khi hỏi.",
+      "Cần hỏi giá theo số lượng hoặc xem thêm ảnh, Quý khách chỉ cần nhắn Zalo."
+    ],
     "tieu_de_gioi_thieu": "",
     "anh_gioi_thieu": "",
-    "logo": ""
+    "logo": "",
+    "nhan_badge": "Ảnh thật",
+    "tieu_de_bia": "Đồ uống ngon hơn trong chiếc cốc vừa ý",
+    "tieu_de_bia_nhan": "chiếc cốc vừa ý",
+    "diem_bia": [
+      "Ảnh chụp sản phẩm thật",
+      "Hỏi giá qua Zalo",
+      "3 mẫu sản phẩm"
+    ]
   },
   "lien_he": {
     "dien_thoai": "0866153946",
@@ -30,7 +42,23 @@
     "vi_tri_anh_bia": "50% 50%",
     "mo_ta_anh_bia": "Cốc sứ xanh dương đặt trên bàn gỗ"
   },
-  "diem_noi_bat": [],
+  "diem_noi_bat": [
+    {
+      "tieu_de": "Ảnh chụp sản phẩm thật",
+      "mo_ta": "Mọi ảnh trên trang là ảnh chụp chính sản phẩm, không dùng ảnh mạng.",
+      "anh": "coc-su-xanh"
+    },
+    {
+      "tieu_de": "Đủ món cho một góc đồ uống",
+      "mo_ta": "Cốc sứ cho đồ nóng, bình giữ nhiệt mang đi, ly ống hút cho đồ lạnh.",
+      "anh": "binh-giu-nhiet"
+    },
+    {
+      "tieu_de": "Hỏi giá trong một chạm",
+      "mo_ta": "Bấm nút Zalo ở từng sản phẩm, tên món được chép sẵn — chỉ việc dán và gửi.",
+      "anh": "ly-gai-den"
+    }
+  ],
   "quy_trinh": [],
   "san_pham": [
     {
@@ -42,12 +70,17 @@
       "kich_thuoc": "",
       "mau_sac": "Xanh dương, lòng trắng",
       "xuat_xu": "",
-      "mo_ta": "Cốc có quai, men xanh dương bóng, lòng cốc màu trắng.",
+      "mo_ta": "Cốc sứ có quai, men ngoài xanh dương bóng, lòng cốc trắng nên dễ nhìn màu đồ uống.\n\nDáng trụ đứng gọn, hợp bàn làm việc lẫn bàn uống trà ở nhà.",
       "thong_tin": {},
       "anh": [
         "coc-su-xanh"
       ],
-      "noi_bat": true
+      "noi_bat": true,
+      "dac_diem": [
+        "Men xanh dương bóng, lòng cốc trắng",
+        "Quai tròn to, cầm chắc tay",
+        "Hợp cà phê, trà, sữa nóng"
+      ]
     },
     {
       "ma": "binh-giu-nhiet",
@@ -58,12 +91,17 @@
       "kich_thuoc": "",
       "mau_sac": "Trắng",
       "xuat_xu": "",
-      "mo_ta": "Bình dáng trụ thon, nắp vặn, thân trắng bóng.",
+      "mo_ta": "Bình giữ nhiệt dáng trụ thon, nắp vặn, thân trắng bóng.\n\nGọn để bỏ túi xách, mang theo khi đi làm, đi học.",
       "thong_tin": {},
       "anh": [
         "binh-giu-nhiet"
       ],
-      "noi_bat": true
+      "noi_bat": true,
+      "dac_diem": [
+        "Thân trụ thon, cầm gọn một tay",
+        "Nắp vặn kín",
+        "Màu trắng trơn, dễ dùng hằng ngày"
+      ]
     },
     {
       "ma": "ly-gai-den",
@@ -74,14 +112,34 @@
       "kich_thuoc": "",
       "mau_sac": "Đen",
       "xuat_xu": "",
-      "mo_ta": "Ly có nắp và ống hút, bề mặt vân gai kim cương màu đen.",
+      "mo_ta": "Ly có nắp và ống hút, bề mặt vân gai kim cương màu đen.\n\nHợp trà sữa, cà phê đá, nước ép mang theo.",
       "thong_tin": {},
       "anh": [
         "ly-gai-den"
       ],
-      "noi_bat": true
+      "noi_bat": true,
+      "dac_diem": [
+        "Bề mặt vân gai kim cương nổi",
+        "Có nắp và ống hút đi kèm",
+        "Màu đen, nổi bật trên bàn"
+      ]
     }
   ],
   "nhan": {},
-  "chan_trang": ""
+  "chan_trang": "",
+  "hoi_dap": [
+    {
+      "hoi": "Làm sao để biết giá sản phẩm?",
+      "dap": "Chạm “Hỏi giá qua Zalo” ở trang từng sản phẩm, hoặc điền mục Nhận báo giá cuối trang — tin nhắn được soạn sẵn để Quý khách gửi thẳng cho chúng tôi."
+    },
+    {
+      "hoi": "Cốc sứ dùng cho đồ uống nóng được không?",
+      "dap": "Được. Cốc sứ hợp với cà phê, trà và sữa nóng; quai to giúp cầm không bị nóng tay."
+    },
+    {
+      "hoi": "Vệ sinh bình giữ nhiệt thế nào cho bền?",
+      "dap": "Nên rửa bằng tay với nước ấm và bàn chải mềm, lau khô nắp và gioăng sau khi rửa. Không ngâm cả bình trong nước lâu."
+    }
+  ],
+  "_noi_dung_tu_soan": "Khẩu hiệu, giới thiệu, điểm nổi bật, đặc điểm và hỏi đáp do Claude soạn từ ảnh + danh mục sản phẩm (08/10/2026). Cần đối tác xác nhận."
 }

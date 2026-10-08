@@ -27,7 +27,8 @@ khớp → hỏi lại bằng nút chọn. Không thư mục nào khớp → chu
 | Đổi giá / tên / mô tả | sửa trường tương ứng. Đổi `ten` thì **giữ nguyên `ma`** — link cũ đã gửi qua Zalo vẫn chạy |
 | Đổi màu | `python cong-cu/chon-mau.py --hex "#..." --ghi khach-hang/<slug>/web.json` (hoặc `--anh`, `--nganh`) |
 | "Màu đậm hơn / nhạt hơn / ấm hơn" | tự chỉnh mã hex rồi chạy lệnh trên — script báo tương phản |
-| Đổi ảnh bìa | `giao_dien.anh_bia` = tên ảnh khác; sản phẩm lệch → `vi_tri_anh_bia` |
+| Đổi ảnh bìa | `giao_dien.anh_bia` = tên ảnh khác; thẻ bìa xoay thêm ảnh các món `noi_bat` |
+| Thêm nội dung (giới thiệu, hỏi đáp, điểm nổi bật…) | theo `../lam-web/references/viet-noi-dung.md` — cập nhật `_noi_dung_tu_soan` |
 | Thêm logo | ảnh tên có chữ `logo` → `xu-ly-anh.py` → `cong_ty.logo: "logo"` |
 | Đổi số điện thoại / Zalo / địa chỉ | `lien_he.*` |
 | Đổi phong cách | `giao_dien.phong_cach`: `truyen-thong` / `hien-dai` / `sang-trong` |
