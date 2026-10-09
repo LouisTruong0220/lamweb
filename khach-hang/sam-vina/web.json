@@ -1,0 +1,168 @@
+{
+  "slug": "sam-vina",
+  "dia_chi_web": "https://sam-vina.pages.dev",
+  "cong_ty": {
+    "ten": "Công ty TNHH Sâm Vina",
+    "ten_ngan": "Sâm Vina",
+    "dong_tren_ten": "Trà · kẹo dẻo sâm",
+    "nhan_badge": "Sâm Ngọc Linh",
+    "tieu_de_bia": "Hương sâm Ngọc Linh trong từng chén trà",
+    "tieu_de_bia_nhan": "sâm Ngọc Linh",
+    "khau_hieu": "Trà lá sâm, trà túi lọc và kẹo dẻo sâm Ngọc Linh — để dùng hằng ngày hoặc biếu tặng.",
+    "diem_bia": [
+      "4 dòng sản phẩm",
+      "Hộp thiếc, hộp giấy, túi lọc",
+      "Hỏi giá qua Zalo"
+    ],
+    "mo_ta_ngan": "Sâm Vina: trà lá sâm Ngọc Linh, trà túi lọc và kẹo dẻo sâm Ngọc Linh, đóng hộp đẹp để dùng hoặc làm quà. Hỏi giá nhanh qua Zalo.",
+    "gioi_thieu": [
+      "Sâm Vina mang hương vị sâm Ngọc Linh vào những món dễ dùng: trà lá, trà túi lọc và kẹo dẻo, đóng hộp sẵn để dùng hoặc làm quà.",
+      "Trà túi lọc pha nhanh ở văn phòng, trà lá trong hộp thiếc cho ấm trà ở nhà, kẹo dẻo nhỏ gọn mang theo bên mình.",
+      "Cần hỏi giá hoặc đặt hàng, Quý khách chỉ cần gọi hoặc nhắn Zalo cho chúng tôi."
+    ],
+    "anh_gioi_thieu": "",
+    "phu_de_vi_sao": "",
+    "logo": ""
+  },
+  "lien_he": {
+    "dien_thoai": "0866153946",
+    "zalo": "",
+    "facebook": "",
+    "ten_facebook": "",
+    "email": "",
+    "dia_chi": "",
+    "ban_do": "",
+    "gio_mo_cua": "",
+    "loi_moi": ""
+  },
+  "giao_dien": {
+    "mau_chu_dao": "#1F6B3A",
+    "phong_cach": "sang-trong",
+    "anh_bia": "gio-qua",
+    "mo_ta_anh_bia": "Giỏ quà gồm trà và kẹo dẻo sâm Ngọc Linh Sâm Vina"
+  },
+  "diem_noi_bat": [
+    {
+      "tieu_de": "Nhiều cách thưởng thức",
+      "mo_ta": "Trà lá để pha ấm, trà túi lọc pha nhanh, kẹo dẻo ăn ngay.",
+      "anh": "bo-san-pham"
+    },
+    {
+      "tieu_de": "Hộp đẹp, hợp làm quà",
+      "mo_ta": "Hộp thiếc và hộp giấy tông xanh – vàng, gói sẵn để biếu tặng.",
+      "anh": "gio-qua"
+    },
+    {
+      "tieu_de": "Hỏi giá trong một chạm",
+      "mo_ta": "Bấm nút Zalo ở từng sản phẩm, tên món được chép sẵn — chỉ việc dán và gửi.",
+      "anh": "keo-deo-sam"
+    }
+  ],
+  "quy_trinh": [],
+  "hoi_dap": [
+    {
+      "hoi": "Làm sao để biết giá sản phẩm?",
+      "dap": "Chạm “Hỏi giá qua Zalo” ở trang từng sản phẩm, hoặc điền mục Nhận báo giá cuối trang — tin nhắn được soạn sẵn để Quý khách gửi thẳng cho chúng tôi."
+    },
+    {
+      "hoi": "Trà túi lọc và trà lá khác nhau thế nào?",
+      "dap": "Trà túi lọc chỉ cần thả vào cốc nước nóng, tiện ở văn phòng. Trà lá pha bằng ấm, hợp khi ngồi uống trà ở nhà hoặc tiếp khách."
+    },
+    {
+      "hoi": "Bảo quản trà và kẹo thế nào?",
+      "dap": "Đậy kín hộp sau khi dùng, để nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp."
+    }
+  ],
+  "so_lieu": [],
+  "danh_gia": [],
+  "san_pham": [
+    {
+      "ma": "tra-la-sam",
+      "ten": "Trà lá sâm Ngọc Linh",
+      "danh_muc": "",
+      "gia": "",
+      "dac_diem": [
+        "Hộp thiếc vuông, nắp đậy",
+        "Tông xanh lá, nhãn vàng",
+        "Hợp pha ấm, tiếp khách"
+      ],
+      "chat_lieu": "",
+      "kich_thuoc": "",
+      "mau_sac": "",
+      "xuat_xu": "",
+      "mo_ta": "Trà lá sâm Ngọc Linh đựng trong hộp thiếc vuông màu xanh lá, nắp in nhãn Samvina vàng.\n\nHợp pha ấm trà ở nhà, tiếp khách, hoặc làm quà biếu.",
+      "thong_tin": {},
+      "anh": [
+        "tra-la-sam"
+      ],
+      "noi_bat": true
+    },
+    {
+      "ma": "keo-deo-sam",
+      "ten": "Kẹo dẻo sâm",
+      "danh_muc": "",
+      "gia": "",
+      "dac_diem": [
+        "Viên vuông vàng hổ phách",
+        "Hộp thiếc, in 100gr",
+        "Ăn ngay, dễ mang theo"
+      ],
+      "chat_lieu": "",
+      "kich_thuoc": "",
+      "mau_sac": "",
+      "xuat_xu": "",
+      "mo_ta": "Kẹo dẻo sâm Ngọc Linh (Elite Gummy) dạng viên vuông màu vàng hổ phách, đựng trong hộp thiếc xanh, hộp in 100gr.\n\nNhỏ gọn, ăn ngay, tiện mang theo đi làm, đi xa.",
+      "thong_tin": {},
+      "anh": [
+        "keo-deo-sam",
+        "gio-qua"
+      ],
+      "noi_bat": true
+    },
+    {
+      "ma": "tra-tui-loc-hop",
+      "ten": "Trà túi lọc sâm (hộp)",
+      "danh_muc": "",
+      "gia": "",
+      "dac_diem": [
+        "Dạng túi lọc, pha nhanh",
+        "Hộp giấy gọn nhẹ",
+        "Hợp văn phòng, đi công tác"
+      ],
+      "chat_lieu": "",
+      "kich_thuoc": "",
+      "mau_sac": "",
+      "xuat_xu": "",
+      "mo_ta": "Hộp giấy xanh lá viền xanh nhạt, in chữ Ngọc Linh Ginseng – Tea Bag.\n\nTrà túi lọc pha nhanh với nước nóng, hợp bàn làm việc và văn phòng.",
+      "thong_tin": {},
+      "anh": [
+        "tra-tui-loc-hop"
+      ],
+      "noi_bat": true
+    },
+    {
+      "ma": "tra-tui-loc-goi",
+      "ten": "Trà túi lọc sâm (gói)",
+      "danh_muc": "",
+      "gia": "",
+      "dac_diem": [
+        "Gói nhỏ, dễ mang theo",
+        "Nhãn xanh lá – vàng",
+        "Pha bằng nước nóng"
+      ],
+      "chat_lieu": "",
+      "kich_thuoc": "",
+      "mau_sac": "",
+      "xuat_xu": "",
+      "mo_ta": "Gói trà túi lọc sâm Ngọc Linh màu xanh lá, nhãn vàng Samvina.\n\nTừng gói nhỏ dễ bỏ túi xách, mang theo khi đi xa.",
+      "thong_tin": {},
+      "anh": [
+        "tra-tui-loc-goi"
+      ],
+      "noi_bat": false
+    }
+  ],
+  "nhan": {},
+  "chan_trang": "",
+  "_noi_dung_tu_soan": "Tên sản phẩm (đọc từ nhãn), khẩu hiệu, giới thiệu, điểm nổi bật, đặc điểm, hỏi đáp do Claude soạn từ 2 ảnh quảng cáo (09/10/2026). Không đưa khuyến mãi 50%/mua 2 tặng 1 lên web. Cần đối tác xác nhận."
+}
