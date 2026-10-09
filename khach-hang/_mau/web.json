@@ -14,7 +14,8 @@
     "gioi_thieu": [],
     "anh_gioi_thieu": "",
     "phu_de_vi_sao": "",
-    "logo": ""
+    "logo": "",
+    "phu_de_chung_nhan": ""
   },
   "lien_he": {
     "dien_thoai": "",
@@ -25,7 +26,9 @@
     "dia_chi": "",
     "ban_do": "",
     "gio_mo_cua": "",
-    "loi_moi": ""
+    "loi_moi": "",
+    "ten_zalo": "",
+    "khac": []
   },
   "giao_dien": {
     "mau_chu_dao": "#2F5D62",
@@ -57,5 +60,6 @@
   ],
   "nhan": {},
   "chan_trang": "",
-  "_noi_dung_tu_soan": ""
+  "_noi_dung_tu_soan": "",
+  "chung_nhan": []
 }

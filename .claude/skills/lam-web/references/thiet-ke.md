@@ -81,6 +81,7 @@ Theo website mẫu (phong cách Flock/Webflow). Thứ tự cố định; mục t
 | 7 | Quỹ đạo | ảnh sản phẩm xoay quanh logo, chạm để xem | ≥ 4 sản phẩm có ảnh |
 | 8 | Lời khách | 3 cột cuộn dọc vô tận | `danh_gia` **thật** ≥ 2 |
 | 9 | Giới thiệu | chữ đoạn đầu sáng dần từng từ theo cuộn | `gioi_thieu` |
+| 9b | Chứng nhận | lưới giấy chứng nhận, ảnh nằm trọn, chạm xem lớn | `chung_nhan` (ảnh giấy tờ THẬT) |
 | 10 | Quy trình | các bước đánh số trượt lên | `quy_trinh` |
 | 11 | Hỏi đáp | xổ ra/thu vào, dấu + xoay thành − | `hoi_dap` |
 | 12 | Nhận báo giá | form soạn sẵn tin nhắn → mở Zalo / SMS (không cần máy chủ) | có SĐT hoặc Zalo |
@@ -98,3 +99,25 @@ Mọi hiệu ứng tắt khi điện thoại bật "Giảm chuyển động". Kh
 - Ảnh vuốt ngang trên trang sản phẩm, có đếm 1/4.
 - Chữ thân 17px, nút ≥ 48px, tương phản chữ/nút ≥ 4,5:1, không tràn ngang.
 - Ảnh WebP 640/1280 + lazy load → trang chủ ~0,4 MB, mở nhanh trên 4G.
+
+## Liên hệ nhiều kênh
+
+- `lien_he.zalo` nhận **số điện thoại** hoặc **link Zalo Official Account** (`https://zalo.me/s/...`).
+  Dùng link OA thì đặt thêm `ten_zalo` (ví dụ "Zalo OA Sâm Vina") để hiện chữ thay cho số.
+- `lien_he.khac`: danh sách kênh phụ hiện trong mục Liên hệ —
+  `{"nhan": "Hotline 2", "gia_tri": "0911 38 30 30", "bieu": "goi"}` (bieu "goi" + số → tự thành link gọi) ·
+  `{"nhan": "Chi nhánh miền Nam", "gia_tri": "...", "bieu": "ghim", "link": "<Google Maps>"}` ·
+  Shopee / TikTok / YouTube: `"bieu": "chat"` hoặc `"chia_se"` kèm `link`.
+- Sản phẩm chưa có ảnh vẫn được lên web: thẻ hiện tên doanh nghiệp + "Ảnh đang cập nhật" thay vì khung trống.
+
+## Dựng lại từ website cũ của doanh nghiệp
+
+Ví dụ đầy đủ: `khach-hang/sam-vina/` — `nguon/README.md` ghi đã biên tập gì so với web cũ.
+- Bóc **mọi trang sản phẩm**, không chỉ trang chủ (web cũ kiểu PHP hay để link sản phẩm dạng tên trơn, không `.html`).
+- **Giá ảo** (10 đ, 65 đ — chủ web để giữ chỗ) → bỏ, để "Liên hệ báo giá".
+- Web cũ thường **tự mâu thuẫn** (hai số hotline, hai địa chỉ chi nhánh, số liệu khác nhau giữa các trang) →
+  lấy theo chân trang hiện tại, ghi rõ chỗ lệch trong `_noi_dung_tu_soan`.
+- **Thực phẩm, thực phẩm chức năng, dược liệu**: bỏ câu nhắc chữa/hỗ trợ điều trị bệnh, thêm vào `chan_trang`
+  "Thực phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh." — kể cả khi web cũ có viết.
+- Ảnh gốc tải về nặng (hàng chục MB) → `.gitignore` thư mục `anh-goc/` của khách đó + để script tải lại trong `nguon/`.
+- Trước khi tạo thư mục: `git pull` và xem `khach-hang/` — có thể đã có bản làm từ điện thoại cùng tên.
