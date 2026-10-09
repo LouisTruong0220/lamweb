@@ -190,7 +190,7 @@ def main():
             nk.write_text("# Nhật ký — %s\n\n| Thời điểm (UTC) | Loại | Địa chỉ |\n|---|---|---|\n"
                           % (d.get("cong_ty", {}).get("ten") or ten), "utf-8")
         with nk.open("a", encoding="utf-8") as f:
-            f.write("| %s | %s | %s |\n" % (datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M"),
+            f.write("| %s | %s | %s |\n" % (datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M"),
                                             "bản nháp" if a.nhap else "chính thức", url))
         print("\n══════════════════════════════════════")
         print("  WEB ĐÃ LÊN: %s" % url)
