@@ -1,85 +1,700 @@
 {
   "slug": "sam-vina",
-  "dia_chi_web": "https://sam-vina.pages.dev",
+  "dia_chi_web": "",
   "cong_ty": {
     "ten": "Công ty TNHH Sâm Vina",
     "ten_ngan": "Sâm Vina",
-    "dong_tren_ten": "Trà · kẹo dẻo sâm",
-    "nhan_badge": "Sâm Ngọc Linh",
-    "tieu_de_bia": "Hương sâm Ngọc Linh trong từng chén trà",
-    "tieu_de_bia_nhan": "sâm Ngọc Linh",
-    "khau_hieu": "Trà lá sâm, trà túi lọc và kẹo dẻo sâm Ngọc Linh — để dùng hằng ngày hoặc biếu tặng.",
+    "dong_tren_ten": "Sâm Ngọc Linh · Nam Trà My, Quảng Nam",
+    "nhan_badge": "SÂM VINA",
+    "tieu_de_bia": "Sâm Ngọc Linh từ đỉnh núi Ngọc Linh, Quảng Nam",
+    "tieu_de_bia_nhan": "Sâm Ngọc Linh",
+    "khau_hieu": "Quà tặng từ thiên nhiên — báu vật cho sức khỏe. Sâm Vina, thương hiệu vì sức khoẻ người Việt.",
     "diem_bia": [
-      "4 dòng sản phẩm",
-      "Hộp thiếc, hộp giấy, túi lọc",
-      "Hỏi giá qua Zalo"
+      "Giao hàng toàn quốc",
+      "Cam kết chất lượng sản phẩm",
+      "Đạt tiêu chuẩn an toàn"
     ],
-    "mo_ta_ngan": "Sâm Vina: trà lá sâm Ngọc Linh, trà túi lọc và kẹo dẻo sâm Ngọc Linh, đóng hộp đẹp để dùng hoặc làm quà. Hỏi giá nhanh qua Zalo.",
+    "mo_ta_ngan": "Sâm Vina: sâm Ngọc Linh củ tươi, sâm ngâm mật ong, rượu sâm, cao lá sâm, trà sâm, yến sào từ núi Ngọc Linh, Quảng Nam. Giao hàng toàn quốc.",
     "gioi_thieu": [
-      "Sâm Vina mang hương vị sâm Ngọc Linh vào những món dễ dùng: trà lá, trà túi lọc và kẹo dẻo, đóng hộp sẵn để dùng hoặc làm quà.",
-      "Trà túi lọc pha nhanh ở văn phòng, trà lá trong hộp thiếc cho ấm trà ở nhà, kẹo dẻo nhỏ gọn mang theo bên mình.",
-      "Cần hỏi giá hoặc đặt hàng, Quý khách chỉ cần gọi hoặc nhắn Zalo cho chúng tôi."
+      "Công ty TNHH Sâm Vina ra đời để đưa cây sâm Ngọc Linh — sâm Việt Nam, Panax vietnamensis — đến người tiêu dùng trong và ngoài nước bằng thương hiệu SÂM VINA.",
+      "Lợi thế của chúng tôi là ở ngay xã Trà Linh, huyện Nam Trà My, tỉnh Quảng Nam — nơi được mệnh danh là thủ phủ của sâm Ngọc Linh — nên chủ động được nguồn nguyên liệu và giá cả.",
+      "Trước đây sâm Ngọc Linh là cây thuốc quý được đồng bào Xê Đăng gìn giữ. Năm 1973, đoàn cán bộ Khu Y tế Trung Trung bộ phát hiện những cây sâm đầu tiên ở độ cao 1.800 mét dưới chân núi Ngọc Linh.",
+      "Sâm Vina cung cấp sâm Ngọc Linh củ tươi, sâm ngâm rượu, sâm ngâm mật ong, cao lá sâm, rượu lá sâm, trà sâm, yến sào… đóng hộp trang trọng, phù hợp làm quà biếu người thân, bạn bè, đồng nghiệp."
     ],
-    "anh_gioi_thieu": "",
-    "phu_de_vi_sao": "",
-    "logo": ""
+    "anh_gioi_thieu": "banner-sam-ngoc-linh",
+    "mo_ta_anh_gioi_thieu": "Vườn sâm Ngọc Linh trên núi Ngọc Linh, Quảng Nam",
+    "phu_de_vi_sao": "Sâm Vina — thương hiệu vì sức khoẻ người Việt",
+    "phu_de_chung_nhan": "Giấy chứng nhận an toàn thực phẩm và hệ thống quản lý chất lượng của Công ty TNHH Sâm Vina. Chạm vào để xem ảnh lớn.",
+    "logo": "logo"
   },
   "lien_he": {
-    "dien_thoai": "0866153946",
-    "zalo": "",
-    "facebook": "",
-    "ten_facebook": "",
-    "email": "",
-    "dia_chi": "",
-    "ban_do": "",
-    "gio_mo_cua": "",
-    "loi_moi": ""
+    "dien_thoai": "0825355589",
+    "zalo": "https://zalo.me/s/3307854960720076416/",
+    "ten_zalo": "Zalo OA Sâm Vina",
+    "facebook": "https://www.facebook.com/samngoclinhvietnam.com.vn/",
+    "ten_facebook": "Sâm Ngọc Linh Việt Nam",
+    "email": "samvina2017@gmail.com",
+    "dia_chi": "223 Nguyễn Xí, phường Hoà Khánh, TP. Đà Nẵng",
+    "loi_moi": "Cho chúng tôi biết sản phẩm và số lượng Quý khách cần — Sâm Vina tư vấn và báo giá.",
+    "khac": [
+      {
+        "nhan": "Hotline 2",
+        "gia_tri": "0911 38 30 30",
+        "bieu": "goi"
+      },
+      {
+        "nhan": "Chi nhánh miền Nam",
+        "gia_tri": "Số 13 đường 911A Tạ Quang Bửu, Phường 5, Quận 8, TP. Hồ Chí Minh",
+        "bieu": "ghim",
+        "link": "https://www.google.com/maps/search/?api=1&query=13%20%C4%91%C6%B0%E1%BB%9Dng%20911A%20T%E1%BA%A1%20Quang%20B%E1%BB%ADu%20Qu%E1%BA%ADn%208"
+      },
+      {
+        "nhan": "Gian hàng Shopee",
+        "gia_tri": "shopee.vn/samvina.official",
+        "bieu": "chat",
+        "link": "https://shopee.vn/samvina.official"
+      },
+      {
+        "nhan": "TikTok",
+        "gia_tri": "Sâm Vina trên TikTok",
+        "bieu": "chia_se",
+        "link": "https://vt.tiktok.com/ZS9MhLwETwvLP-CTZR5/"
+      },
+      {
+        "nhan": "YouTube",
+        "gia_tri": "@samngoclinh-samvina5967",
+        "bieu": "chia_se",
+        "link": "https://www.youtube.com/@samngoclinh-samvina5967"
+      }
+    ]
   },
   "giao_dien": {
-    "mau_chu_dao": "#1F6B3A",
+    "mau_chu_dao": "#1E9C08",
     "phong_cach": "sang-trong",
-    "anh_bia": "gio-qua",
-    "mo_ta_anh_bia": "Giỏ quà gồm trà và kẹo dẻo sâm Ngọc Linh Sâm Vina"
+    "anh_bia": "sam-ngoc-linh-cu-tuoi",
+    "mo_ta_anh_bia": "Củ sâm Ngọc Linh tươi bên hoa lan"
   },
   "diem_noi_bat": [
     {
-      "tieu_de": "Nhiều cách thưởng thức",
-      "mo_ta": "Trà lá để pha ấm, trà túi lọc pha nhanh, kẹo dẻo ăn ngay.",
-      "anh": "bo-san-pham"
+      "tieu_de": "Nguồn sâm từ núi Ngọc Linh",
+      "mo_ta": "Sâm trồng tự nhiên trên núi Ngọc Linh, huyện Nam Trà My, Quảng Nam; nhiều dòng sản phẩm dùng củ trên 10 năm tuổi.",
+      "anh": "sam-ngoc-linh-cu-tuoi-loai-1"
     },
     {
-      "tieu_de": "Hộp đẹp, hợp làm quà",
-      "mo_ta": "Hộp thiếc và hộp giấy tông xanh – vàng, gói sẵn để biếu tặng.",
-      "anh": "gio-qua"
+      "tieu_de": "Rượu ủ chum sành trên 4 năm",
+      "mo_ta": "Rượu sâm ngâm với rượu gạo, rượu nếp chưng cất nguyên chất, ủ trong chum sành trên 4 năm.",
+      "anh": "ruou-sam-ngoc-linh-500-ml"
     },
     {
-      "tieu_de": "Hỏi giá trong một chạm",
-      "mo_ta": "Bấm nút Zalo ở từng sản phẩm, tên món được chép sẵn — chỉ việc dán và gửi.",
-      "anh": "keo-deo-sam"
+      "tieu_de": "Đạt tiêu chuẩn an toàn",
+      "mo_ta": "Có giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm, HACCP, ISO 22000 và đăng ký FDA.",
+      "anh": "chung-nhan-iso"
+    },
+    {
+      "tieu_de": "Quà biếu trang trọng",
+      "mo_ta": "Sâm ngâm mật ong, tinh chất, yến sào đóng hộp quà — hợp biếu người thân, đối tác.",
+      "anh": "sam-ngoc-linh-mat-ong-600-2"
     }
   ],
-  "quy_trinh": [],
+  "chung_nhan": [
+    {
+      "anh": "chung-nhan-attp-1",
+      "ten": "Cơ sở đủ điều kiện an toàn thực phẩm"
+    },
+    {
+      "anh": "chung-nhan-attp-2",
+      "ten": "Cơ sở đủ điều kiện an toàn thực phẩm"
+    },
+    {
+      "anh": "chung-nhan-haccp",
+      "ten": "HACCP CODEX 2020"
+    },
+    {
+      "anh": "chung-nhan-iso",
+      "ten": "ISO 22000:2018"
+    },
+    {
+      "anh": "chung-nhan-fda",
+      "ten": "Đăng ký FDA (Hoa Kỳ)"
+    }
+  ],
+  "quy_trinh": [
+    {
+      "tieu_de": "Báo lỗi trong 48 giờ",
+      "mo_ta": "Gọi hotline 0825 355 589 hoặc nhắn Zalo / Fanpage, gửi video mở hàng và ảnh sản phẩm lỗi."
+    },
+    {
+      "tieu_de": "Xác nhận trong 24 giờ làm việc",
+      "mo_ta": "Chuyên viên chăm sóc khách hàng kiểm tra và xác nhận tình trạng đổi trả."
+    },
+    {
+      "tieu_de": "Gửi hàng về trong 7 ngày",
+      "mo_ta": "Đóng gói cẩn thận kèm quà tặng (nếu có), gửi về 223 Nguyễn Xí, Đà Nẵng."
+    },
+    {
+      "tieu_de": "Đổi mới hoặc hoàn tiền",
+      "mo_ta": "Sâm Vina gửi sản phẩm mới, hoặc hoàn 100% giá trị qua chuyển khoản trong 3–5 ngày làm việc."
+    }
+  ],
   "hoi_dap": [
     {
-      "hoi": "Làm sao để biết giá sản phẩm?",
-      "dap": "Chạm “Hỏi giá qua Zalo” ở trang từng sản phẩm, hoặc điền mục Nhận báo giá cuối trang — tin nhắn được soạn sẵn để Quý khách gửi thẳng cho chúng tôi."
+      "hoi": "Sâm Ngọc Linh khác các loại sâm khác ở điểm nào?",
+      "dap": "Theo tài liệu công bố năm 1994 của Viện Dược liệu (Bộ Y tế), sâm Ngọc Linh chứa khoảng 50 hợp chất saponin, trong đó 26 hợp chất có cấu trúc giống nhân sâm Triều Tiên, nhân sâm Mỹ và 24 saponin có cấu trúc chưa gặp ở loài sâm nào khác. Ngoài ra còn có 14 axit béo, 16 axit amin và 18 nguyên tố vi lượng."
     },
     {
-      "hoi": "Trà túi lọc và trà lá khác nhau thế nào?",
-      "dap": "Trà túi lọc chỉ cần thả vào cốc nước nóng, tiện ở văn phòng. Trà lá pha bằng ấm, hợp khi ngồi uống trà ở nhà hoặc tiếp khách."
+      "hoi": "Làm sao phân biệt sâm Ngọc Linh thật với sâm giả?",
+      "dap": "Sâm giả thường là củ tam thất vũ diệp: củ trông rất giống nhưng lá nhọn hơn, lông tơ trên lá cứng hơn. Khi nấu nước uống, tam thất đắng nghét, còn sâm Ngọc Linh có vị đắng lẫn ngọt mát đặc trưng. Sâm Ngọc Linh loại 1 của Sâm Vina có giám định theo yêu cầu của khách hàng."
     },
     {
-      "hoi": "Bảo quản trà và kẹo thế nào?",
-      "dap": "Đậy kín hộp sau khi dùng, để nơi khô ráo, thoáng mát, tránh ánh nắng trực tiếp."
+      "hoi": "Tuổi của củ sâm được nhận biết thế nào?",
+      "dap": "Mỗi năm thân cây sâm để lại một vết sẹo trên củ (gọi là mắt sâm). Đếm số vết sẹo là biết sâm bao nhiêu tuổi. Các dòng sản phẩm chính của Sâm Vina dùng củ trên 10 năm tuổi."
+    },
+    {
+      "hoi": "Ai không nên dùng rượu sâm?",
+      "dap": "Rượu sâm không dùng cho người dưới 18 tuổi. Liều dùng tham khảo: uống trong bữa ăn, ngày 2 lần, mỗi lần 30ml."
+    },
+    {
+      "hoi": "Sâm Vina có giao hàng toàn quốc không?",
+      "dap": "Có. Sâm Vina giao hàng toàn quốc từ trụ sở Đà Nẵng và chi nhánh TP. Hồ Chí Minh. Quý khách gọi 0825 355 589 hoặc nhắn Zalo để được báo phí và thời gian giao."
+    },
+    {
+      "hoi": "Chính sách đổi trả thế nào?",
+      "dap": "Sâm Vina đổi mới hoặc hoàn tiền khi sản phẩm lỗi do nhà sản xuất, vỡ hỏng do vận chuyển, hoặc giao sai, thiếu hàng. Quý khách báo trong 48 giờ kể từ khi nhận hàng, kèm video mở thùng, và gửi trả trong 7 ngày. Lỗi từ phía Sâm Vina thì Sâm Vina chịu 100% phí vận chuyển hai chiều. Không đổi trả sản phẩm đã bóc tem niêm phong, đã dùng, hoặc hỏng do bảo quản sai."
     }
   ],
-  "so_lieu": [],
+  "so_lieu": [
+    {
+      "so": "45",
+      "hau_to": "",
+      "nhan": "sản phẩm từ sâm Ngọc Linh, yến sào và thảo dược"
+    },
+    {
+      "so": "9",
+      "hau_to": " nhóm",
+      "nhan": "sâm củ tươi, sâm mật ong, rượu sâm, cao & tinh chất, trà, đẳng sâm, yến sào, thảo dược"
+    },
+    {
+      "so": "2",
+      "hau_to": " văn phòng",
+      "nhan": "Đà Nẵng và TP. Hồ Chí Minh"
+    }
+  ],
   "danh_gia": [],
   "san_pham": [
     {
+      "ma": "sam-ngoc-linh-cu-tuoi-loai-1",
+      "ten": "Sâm Ngọc Linh Củ Tươi Loại 1",
+      "danh_muc": "Sâm củ tươi",
+      "gia": "",
+      "dac_diem": [
+        "Tuổi sâm trên 10 năm",
+        "Lõi vàng, nhiều mắt sâm",
+        "Giám định theo yêu cầu"
+      ],
+      "mo_ta": "Củ sâm Ngọc Linh loại 1 chắc, rắn, dáng ngoằn ngoèo tự nhiên, nhuốm màu đất mùn. Những \"mắt sâm\" xếp chồng lên nhau — mỗi vết lõm là dấu tích một chiếc lá rụng qua một mùa đông, củ càng nhiều mắt tuổi càng cao. Bên trong lớp vỏ sần là phần lõi vàng, mùi thảo mộc đặc trưng.\n\nSâm loại 1 được khai thác ở độ tuổi trên 10 năm, có giám định theo yêu cầu của khách hàng.",
+      "anh": [
+        "sam-ngoc-linh-cu-tuoi-loai-1"
+      ],
+      "noi_bat": true
+    },
+    {
+      "ma": "cay-sam-ngoc-linh",
+      "ten": "Cây Sâm Ngọc Linh",
+      "danh_muc": "Sâm củ tươi",
+      "gia": "",
+      "dac_diem": [
+        "Nguyên cây, nguyên củ",
+        "Trên 10 năm tuổi",
+        "Núi Ngọc Linh, Quảng Nam"
+      ],
+      "mo_ta": "Cây sâm Ngọc Linh nguyên củ, trên 10 năm tuổi, trồng tự nhiên trên núi Ngọc Linh, huyện Nam Trà My, tỉnh Quảng Nam.",
+      "anh": [],
+      "noi_bat": false
+    },
+    {
+      "ma": "la-sam-ngoc-linh",
+      "ten": "Lá Sâm Ngọc Linh",
+      "danh_muc": "Sâm củ tươi",
+      "gia": "",
+      "dac_diem": [
+        "Lá sâm trên 10 năm tuổi",
+        "Núi Ngọc Linh, Quảng Nam"
+      ],
+      "mo_ta": "Lá sâm Ngọc Linh từ cây trên 10 năm tuổi, trồng tự nhiên trên núi Ngọc Linh, huyện Nam Trà My, tỉnh Quảng Nam.",
+      "anh": [],
+      "noi_bat": false
+    },
+    {
+      "ma": "sam-ngoc-linh-cu-tuoi",
+      "ten": "Sâm Ngọc Linh Củ Tươi",
+      "danh_muc": "Sâm củ tươi",
+      "gia": "",
+      "dac_diem": [
+        "Củ tươi trên 10 năm tuổi",
+        "Núi Ngọc Linh, Quảng Nam"
+      ],
+      "mo_ta": "Củ sâm Ngọc Linh trên 10 năm tuổi, trồng tự nhiên trên núi Ngọc Linh, huyện Nam Trà My, tỉnh Quảng Nam.",
+      "anh": [
+        "sam-ngoc-linh-cu-tuoi"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "sam-ngam-mat-ong-75ml",
+      "ten": "Sâm Ngâm Mật Ong 75ml",
+      "danh_muc": "Sâm mật ong",
+      "gia": "2.500.000 đ",
+      "dac_diem": [
+        "Hũ 75ml",
+        "Mật ong đã hạ thuỷ phần"
+      ],
+      "mo_ta": "Sâm Ngọc Linh ngâm mật ong thiên nhiên đã hạ thuỷ phần, hũ nhỏ 75ml tiện dùng và làm quà.\n\nCách dùng:\n• Liều dùng chăm sóc sức khoẻ: 2–4g sâm mỗi ngày\n• Sau ăn sáng 20–30 phút: dùng 2 lát sâm và 2 thìa mật ong trong hũ, pha với 100–200ml nước ấm. Lát sâm có thể ngậm tan dần hoặc nhai nuốt\n• Dùng 1 tháng, nghỉ 1 tháng, hoặc tuỳ cơ địa từng người",
+      "anh": [
+        "sam-ngam-mat-ong-75ml"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "sam-ngoc-linh-mat-ong-600",
+      "ten": "Sâm Ngọc Linh Ngâm Mật Ong 600ml",
+      "danh_muc": "Sâm mật ong",
+      "gia": "16.500.000 đ",
+      "dac_diem": [
+        "100g sâm trên 10 năm tuổi",
+        "600ml mật ong rừng",
+        "Hộp quà"
+      ],
+      "mo_ta": "Thành phần:\n• 100g củ sâm Ngọc Linh trên 10 năm tuổi, trồng tự nhiên trên núi Ngọc Linh, huyện Nam Trà My, tỉnh Quảng Nam\n• 600ml mật ong rừng tự nhiên\n\nCách dùng:\n• Liều dùng chăm sóc sức khoẻ: 2–4g sâm mỗi ngày\n• Sau ăn sáng 20–30 phút: dùng 2 lát sâm và 2 thìa mật ong trong hũ, pha với 100–200ml nước ấm. Lát sâm có thể ngậm tan dần hoặc nhai nuốt\n• Dùng 1 tháng, nghỉ 1 tháng, hoặc tuỳ cơ địa từng người",
+      "thong_tin": {
+        "Mã sản phẩm": "SMO 600ml NEW"
+      },
+      "anh": [
+        "sam-ngoc-linh-mat-ong-600",
+        "sam-ngoc-linh-mat-ong-600-2"
+      ],
+      "noi_bat": true
+    },
+    {
+      "ma": "sam-ngoc-linh-ngam-mat-ong",
+      "ten": "Sâm Ngọc Linh Ngâm Mật Ong 400ml",
+      "danh_muc": "Sâm mật ong",
+      "gia": "7.500.000 đ",
+      "dac_diem": [
+        "50g sâm trên 10 năm tuổi",
+        "400ml mật ong rừng"
+      ],
+      "mo_ta": "Thành phần:\n• 50g củ sâm Ngọc Linh trên 10 năm tuổi, trồng tự nhiên trên núi Ngọc Linh, huyện Nam Trà My, tỉnh Quảng Nam\n• 400ml mật ong rừng tự nhiên\n\nCách dùng:\n• Liều dùng chăm sóc sức khoẻ: 2–4g sâm mỗi ngày\n• Sau ăn sáng 20–30 phút: dùng 2 lát sâm và 2 thìa mật ong trong hũ, pha với 100–200ml nước ấm. Lát sâm có thể ngậm tan dần hoặc nhai nuốt\n• Dùng 1 tháng, nghỉ 1 tháng, hoặc tuỳ cơ địa từng người",
+      "thong_tin": {
+        "Mã sản phẩm": "SMO 400ml NEW",
+        "Số công bố chất lượng": "3149"
+      },
+      "anh": [
+        "sam-ngoc-linh-ngam-mat-ong",
+        "sam-ngoc-linh-ngam-mat-ong-2"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "sam-ngoc-linh-mat-ong-250ml",
+      "ten": "Sâm Ngọc Linh Ngâm Mật Ong 250ml",
+      "danh_muc": "Sâm mật ong",
+      "gia": "5.000.000 đ",
+      "dac_diem": [
+        "30g sâm trên 10 năm tuổi",
+        "250ml mật ong rừng"
+      ],
+      "mo_ta": "Thành phần:\n• 30g củ sâm Ngọc Linh trên 10 năm tuổi, trồng tự nhiên trên núi Ngọc Linh, huyện Nam Trà My, tỉnh Quảng Nam\n• 250ml mật ong rừng tự nhiên\n\nCách dùng:\n• Liều dùng chăm sóc sức khoẻ: 2–4g sâm mỗi ngày\n• Sau ăn sáng 20–30 phút: dùng 2 lát sâm và 2 thìa mật ong trong hũ, pha với 100–200ml nước ấm. Lát sâm có thể ngậm tan dần hoặc nhai nuốt\n• Dùng 1 tháng, nghỉ 1 tháng, hoặc tuỳ cơ địa từng người",
+      "thong_tin": {
+        "Mã sản phẩm": "SMO 250ml NEW",
+        "Số công bố chất lượng": "3194"
+      },
+      "anh": [
+        "sam-ngoc-linh-mat-ong-250ml",
+        "sam-ngoc-linh-mat-ong-250ml-2"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "ruou-la-sam-ngoc-linhno3",
+      "ten": "Rượu Lá Sâm Ngọc Linh NO3",
+      "danh_muc": "Rượu sâm",
+      "gia": "",
+      "dac_diem": [
+        "Lá sâm trên 10 năm tuổi",
+        "Rượu gạo chưng cất",
+        "Ủ chum sành trên 4 năm"
+      ],
+      "mo_ta": "Thành phần:\n• Lá sâm Ngọc Linh trên 10 năm tuổi, trồng tự nhiên trên núi Ngọc Linh, huyện Nam Trà My, tỉnh Quảng Nam\n• Rượu gạo chưng cất nguyên chất\n• Ngâm ủ trong chum sành trên 4 năm\n\nCách dùng:\n• Dùng cho người từ 18 tuổi trở lên\n• Uống trong bữa ăn, ngày 2 lần (sáng / chiều), mỗi lần 30ml",
+      "thong_tin": {
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "ruou-la-sam-ngoc-linhno3"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "sam-ngoc-linh-blue-silver",
+      "ten": "Sâm Ngọc Linh Blue Silver",
+      "danh_muc": "Rượu sâm",
+      "gia": "",
+      "dac_diem": [
+        "Lá sâm chọn lọc",
+        "Rượu nếp nguyên chất",
+        "Hộp Blue Silver"
+      ],
+      "mo_ta": "Rượu lá sâm Ngọc Linh ngâm từ những cành lá sâm chọn lọc cùng rượu nếp nguyên chất, đóng chai trong hộp Blue Silver.\n\nCách dùng:\n• Dùng cho người từ 18 tuổi trở lên\n• Uống trong bữa ăn, ngày 2 lần (sáng / chiều), mỗi lần 30ml",
+      "thong_tin": {
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "sam-ngoc-linh-blue-silver"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "ruou-sam-ngoc-linh-500-ml",
+      "ten": "Rượu Sâm Ngọc Linh 500ml",
+      "danh_muc": "Rượu sâm",
+      "gia": "3.500.000 đ",
+      "dac_diem": [
+        "Củ sâm trên 10 năm tuổi",
+        "Rượu gạo chưng cất",
+        "Ủ chum sành trên 4 năm"
+      ],
+      "mo_ta": "Thành phần:\n• Củ sâm Ngọc Linh trên 10 năm tuổi, trồng tự nhiên trên núi Ngọc Linh, huyện Nam Trà My, tỉnh Quảng Nam\n• Rượu gạo chưng cất nguyên chất\n• Ngâm ủ trong chum sành trên 4 năm\n\nCách dùng:\n• Dùng cho người từ 18 tuổi trở lên\n• Uống trong bữa ăn, ngày 2 lần (sáng / chiều), mỗi lần 30ml",
+      "thong_tin": {
+        "Mã sản phẩm": "RCSNL 500 ML",
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "ruou-sam-ngoc-linh-500-ml"
+      ],
+      "noi_bat": true
+    },
+    {
+      "ma": "ruou-sam-ngoc-linh-cay-1-lit",
+      "ten": "Rượu Cây Sâm Ngọc Linh 1 lít",
+      "danh_muc": "Rượu sâm",
+      "gia": "",
+      "dac_diem": [
+        "Nguyên cây sâm",
+        "Bình 1 lít"
+      ],
+      "mo_ta": "Rượu ngâm nguyên cây sâm Ngọc Linh, bình 1 lít. Sâm khai thác từ núi Ngọc Linh, huyện Nam Trà My, tỉnh Quảng Nam — nơi đang lưu giữ, bảo tồn nguồn gen quý của loài sâm này.\n\nCách dùng:\n• Dùng cho người từ 18 tuổi trở lên\n• Uống trong bữa ăn, ngày 2 lần (sáng / chiều), mỗi lần 30ml",
+      "thong_tin": {
+        "Mã sản phẩm": "RSNLC 1 Lít",
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "ruou-sam-ngoc-linh-cay-1-lit"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "ruou-sam-ngoc-linh-cay-5-lit",
+      "ten": "Rượu Cây Sâm Ngọc Linh 5 lít",
+      "danh_muc": "Rượu sâm",
+      "gia": "",
+      "dac_diem": [
+        "Nguyên cây sâm",
+        "Bình 5 lít"
+      ],
+      "mo_ta": "Rượu ngâm nguyên cây sâm Ngọc Linh, bình 5 lít. Sâm khai thác ở đỉnh núi Ngọc Linh, nơi còn nguyên thảm thực vật nguyên sinh.\n\nCách dùng:\n• Dùng cho người từ 18 tuổi trở lên\n• Uống trong bữa ăn, ngày 2 lần (sáng / chiều), mỗi lần 30ml",
+      "thong_tin": {
+        "Mã sản phẩm": "RSNLC",
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "ruou-sam-ngoc-linh-cay-5-lit"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "ruou-sam-ngoc-linh-cay-3-lit",
+      "ten": "Rượu Cây Sâm Ngọc Linh 3 lít",
+      "danh_muc": "Rượu sâm",
+      "gia": "",
+      "dac_diem": [
+        "Nguyên cây sâm",
+        "Bình 3 lít",
+        "Sâm từ 7 năm tuổi"
+      ],
+      "mo_ta": "Rượu ngâm nguyên cây sâm Ngọc Linh, bình 3 lít. Sâm được chọn lọc, khai thác từ 7 năm tuổi trở lên.\n\nCách dùng:\n• Dùng cho người từ 18 tuổi trở lên\n• Uống trong bữa ăn, ngày 2 lần (sáng / chiều), mỗi lần 30ml",
+      "thong_tin": {
+        "Mã sản phẩm": "RSNLC",
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "ruou-sam-ngoc-linh-cay-3-lit"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "ruou-sam-ngoc-linh-cay-2-lit",
+      "ten": "Rượu Cây Sâm Ngọc Linh 2 lít",
+      "danh_muc": "Rượu sâm",
+      "gia": "",
+      "dac_diem": [
+        "Nguyên cây sâm",
+        "Bình 2 lít"
+      ],
+      "mo_ta": "Rượu ngâm nguyên cây sâm Ngọc Linh, bình 2 lít.\n\nCách dùng:\n• Dùng cho người từ 18 tuổi trở lên\n• Uống trong bữa ăn, ngày 2 lần (sáng / chiều), mỗi lần 30ml",
+      "thong_tin": {
+        "Mã sản phẩm": "RCSNL",
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "ruou-sam-ngoc-linh-cay-2-lit"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "ruou-cu-sam-ngoc-linh-45-lit",
+      "ten": "Rượu Củ Sâm Ngọc Linh 4,5 lít",
+      "danh_muc": "Rượu sâm",
+      "gia": "",
+      "dac_diem": [
+        "Củ sâm Ngọc Linh",
+        "Bình 4,5 lít"
+      ],
+      "mo_ta": "Rượu ngâm củ sâm Ngọc Linh, bình 4,5 lít.\n\nCách dùng:\n• Dùng cho người từ 18 tuổi trở lên\n• Uống trong bữa ăn, ngày 2 lần (sáng / chiều), mỗi lần 30ml",
+      "thong_tin": {
+        "Mã sản phẩm": "RCSNL",
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "ruou-cu-sam-ngoc-linh-45-lit"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "ruou-sam-ngoc-linh-vip74",
+      "ten": "Rượu Sâm Ngọc Linh VIP74",
+      "danh_muc": "Rượu sâm",
+      "gia": "",
+      "dac_diem": [
+        "Củ sâm trên 10 năm tuổi",
+        "Ủ chum sành trên 4 năm",
+        "Bình VIP74"
+      ],
+      "mo_ta": "Thành phần:\n• Củ sâm Ngọc Linh trên 10 năm tuổi, trồng tự nhiên trên núi Ngọc Linh, huyện Nam Trà My, tỉnh Quảng Nam\n• Rượu gạo chưng cất nguyên chất\n• Ngâm ủ trong chum sành trên 4 năm\n\nCách dùng:\n• Dùng cho người từ 18 tuổi trở lên\n• Uống trong bữa ăn, ngày 2 lần (sáng / chiều), mỗi lần 30ml",
+      "thong_tin": {
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "ruou-sam-ngoc-linh-vip74",
+        "ruou-sam-ngoc-linh-vip74-2"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "sam-ngoc-linh-18",
+      "ten": "Rượu Củ Sâm Ngọc Linh 750ml (Sâm Ngọc Linh 18)",
+      "danh_muc": "Rượu sâm",
+      "gia": "",
+      "dac_diem": [
+        "Chai 750ml",
+        "Sâm trên 10 năm tuổi",
+        "Ủ chum sành không tráng men"
+      ],
+      "mo_ta": "Rượu củ sâm Ngọc Linh chai 750ml.\n\nThành phần:\n• Sâm Ngọc Linh khai thác ở núi Ngọc Linh, huyện Nam Trà My, tỉnh Quảng Nam, trên 10 năm tuổi\n• Rượu nếp chưng cất nguyên chất, ủ trong chum sành không tráng men\n\nCách dùng:\n• Dùng cho người từ 18 tuổi trở lên\n• Uống trong bữa ăn, ngày 2 lần (sáng / chiều), mỗi lần 30ml",
+      "thong_tin": {
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "sam-ngoc-linh-18",
+        "sam-ngoc-linh-18-2"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "ruou-diep-linh-sam",
+      "ten": "Rượu Lá Sâm Ngọc Linh 500ml",
+      "danh_muc": "Rượu sâm",
+      "gia": "",
+      "dac_diem": [
+        "Lá sâm Ngọc Linh",
+        "Rượu nếp chưng cất",
+        "Chai 500ml, hộp quà"
+      ],
+      "mo_ta": "Thành phần:\n• Lá sâm Ngọc Linh, trồng tự nhiên trên núi Ngọc Linh, huyện Nam Trà My, tỉnh Quảng Nam\n• Rượu nếp chưng cất nguyên chất\n• Ngâm ủ trong chum sành trên 4 năm\n\nCách dùng:\n• Dùng cho người từ 18 tuổi trở lên\n• Uống trong bữa ăn, ngày 2 lần (sáng / chiều), mỗi lần 30ml",
+      "thong_tin": {
+        "Mã sản phẩm": "NGƯNG SẢN XUẤT",
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "ruou-diep-linh-sam"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "ruou-bong-sam-ngoc-linh",
+      "ten": "Rượu Bông Sâm Ngọc Linh",
+      "danh_muc": "Rượu sâm",
+      "gia": "",
+      "dac_diem": [
+        "Bông sâm Ngọc Linh",
+        "Ủ chum sành trên 4 năm"
+      ],
+      "mo_ta": "Thành phần:\n• Bông (hoa) sâm Ngọc Linh trên 10 năm tuổi, trồng tự nhiên trên núi Ngọc Linh, huyện Nam Trà My, tỉnh Quảng Nam\n• Rượu gạo chưng cất nguyên chất\n• Ngâm ủ trong chum sành trên 4 năm\n\nCách dùng:\n• Dùng cho người từ 18 tuổi trở lên\n• Uống trong bữa ăn, ngày 2 lần (sáng / chiều), mỗi lần 30ml",
+      "thong_tin": {
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "ruou-bong-sam-ngoc-linh"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "ruou-sam-day-ngoc-linh-750",
+      "ten": "Rượu Sâm Dây Ngọc Linh",
+      "danh_muc": "Rượu sâm dây",
+      "gia": "750.000 đ",
+      "dac_diem": [
+        "Sâm dây Ngọc Linh",
+        "Rượu nếp 29 độ"
+      ],
+      "mo_ta": "Sâm dây Ngọc Linh (đẳng sâm) ngâm rượu nếp 29 độ.\n\nCách dùng:\n• Uống trong bữa ăn, mỗi lần 20–50ml\n• Trẻ em dưới 18 tuổi không được sử dụng\n• Tránh ánh nắng trực tiếp, để nơi khô ráo, thoáng mát",
+      "thong_tin": {
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "ruou-sam-day-ngoc-linh-dang-sam"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "ruou-sam-day-ngoc-linh",
+      "ten": "Rượu Sâm Dây Ngọc Linh",
+      "danh_muc": "Rượu sâm dây",
+      "gia": "1.500.000 đ",
+      "dac_diem": [
+        "Sâm dây Ngọc Linh",
+        "Rượu nếp 29 độ",
+        "Hộp quà"
+      ],
+      "mo_ta": "Sâm dây Ngọc Linh (đẳng sâm) ngâm rượu nếp 29 độ.\n\nCách dùng:\n• Uống trong bữa ăn, mỗi lần 20–50ml\n• Trẻ em dưới 18 tuổi không được sử dụng\n• Tránh ánh nắng trực tiếp, để nơi khô ráo, thoáng mát",
+      "thong_tin": {
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "ruou-sam-day-ngoc-linh"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "sam-day-ngoc-linh-sam-vina",
+      "ten": "Sâm Dây Ngọc Linh (Đẳng Sâm)",
+      "danh_muc": "Rượu sâm dây",
+      "gia": "",
+      "dac_diem": [
+        "Củ sâm dây Ngọc Linh",
+        "Tên khác: đẳng sâm"
+      ],
+      "mo_ta": "Sâm dây Ngọc Linh (Codonopsis javanica, họ Hoa chuông) còn gọi là đẳng sâm, sâm leo, cây đùi gà, sâm nam. Cây leo nhỏ sống nhiều năm, thân leo dài 2–4m màu tím; rễ củ hình trụ 10–20cm, đường kính 1–2cm; lá hình tim, hoa hình chuông.",
+      "thong_tin": {
+        "Lưu ý": "Không dùng cho người dưới 18 tuổi"
+      },
+      "anh": [
+        "sam-day-ngoc-linh-sam-vina"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "cao-la-sam-ngoc-linh-75ml",
+      "ten": "Cao Lá Sâm Ngọc Linh 75ml",
+      "danh_muc": "Cao & tinh chất",
+      "gia": "1.500.000 đ",
+      "dac_diem": [
+        "Từ thân và lá sâm Ngọc Linh",
+        "Nấu 7 ngày, cô đặc",
+        "Lọ thuỷ tinh 75ml"
+      ],
+      "mo_ta": "Cao chiết xuất và cô đặc từ thân và lá sâm Ngọc Linh, giữ hương vị tự nhiên. Lá sâm rửa sạch, nấu liên tục 7 ngày, lọc cặn rồi cô đặc, chiết rót vào lọ thuỷ tinh.\n\nCách dùng:\n• Dùng cho người từ 18 tuổi trở lên, vào buổi sáng\n• Hoà 1 muỗng cà phê cao với 1 lít nước lọc, uống thay nước trong ngày\n\nLưu ý: phụ nữ có thai và người mẫn cảm với thành phần của sản phẩm không dùng. Bảo quản nơi khô ráo, tránh ánh nắng.",
+      "anh": [
+        "cao-la-sam-ngoc-linh-75ml"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "cao-la-sam-ngoc-linh-250",
+      "ten": "Cao Lá Sâm Ngọc Linh 250",
+      "danh_muc": "Cao & tinh chất",
+      "gia": "3.500.000 đ",
+      "dac_diem": [
+        "Từ thân và lá sâm Ngọc Linh",
+        "Nấu 7 ngày, cô đặc",
+        "Lọ thuỷ tinh"
+      ],
+      "mo_ta": "Cao chiết xuất và cô đặc từ thân và lá sâm Ngọc Linh, khai thác từ núi Ngọc Linh, huyện Nam Trà My, tỉnh Quảng Nam. Lá sâm rửa sạch, nấu liên tục 7 ngày, lọc cặn rồi cô đặc, chiết rót vào lọ thuỷ tinh.\n\nCách dùng:\n• Dùng cho người từ 18 tuổi trở lên, vào buổi sáng\n• Hoà 1 muỗng cà phê cao với 1 lít nước lọc, uống thay nước trong ngày\n\nLưu ý: phụ nữ có thai và người mẫn cảm với thành phần của sản phẩm không dùng. Bảo quản nơi khô ráo, tránh ánh nắng.",
+      "anh": [
+        "cao-la-sam-ngoc-linh-250"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "tinh-chat-sam-ngoc-linh",
+      "ten": "Tinh Chất Sâm Ngọc Linh",
+      "danh_muc": "Cao & tinh chất",
+      "gia": "550.000 đ",
+      "dac_diem": [
+        "Từ củ, thân và lá sâm",
+        "Vị ngọt thanh, uống lạnh ngon hơn",
+        "Hộp quà"
+      ],
+      "mo_ta": "Tinh chất chiết xuất từ củ, thân và lá sâm Ngọc Linh Quảng Nam. Vị ngọt thanh nhẹ, dễ uống, ngon hơn khi uống lạnh. Hộp quà nhiều chai nhỏ.\n\nLưu ý:\n• Phụ nữ có thai, trẻ em dưới 6 tuổi không dùng\n• Người mẫn cảm với bất kỳ thành phần nào của sản phẩm không dùng\n• Sản phẩm không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh",
+      "thong_tin": {
+        "Mã sản phẩm": "TCSNL"
+      },
+      "anh": [
+        "tinh-chat-sam-ngoc-linh",
+        "tinh-chat-sam-ngoc-linh-2"
+      ],
+      "noi_bat": true
+    },
+    {
+      "ma": "tra-hoa-tan-sam-ngoc-linh",
+      "ten": "Trà Hòa Tan Sâm Ngọc Linh",
+      "danh_muc": "Trà sâm",
+      "gia": "800.000 đ",
+      "dac_diem": [
+        "Gói hòa tan tiện mang theo",
+        "Sâm Ngọc Linh + sâm dây",
+        "Không màu nhân tạo"
+      ],
+      "mo_ta": "Trà hòa tan kết hợp sâm Ngọc Linh với sâm dây Ngọc Linh, vị thanh nhẹ, không đắng gắt. Dạng bột gói nhỏ, pha là uống — dùng được ở nhà, nơi làm việc hay khi đi công tác.\n\nKhông chứa màu nhân tạo, không phụ gia hóa học. Sản phẩm không phải là thuốc.",
+      "thong_tin": {
+        "Mã sản phẩm": "THTSNL"
+      },
+      "anh": [
+        "tra-hoa-tan-sam-ngoc-linh-duong-chat-tu"
+      ],
+      "noi_bat": true
+    },
+    {
+      "ma": "tra-sam-ngoc-linh",
+      "ten": "Trà Túi Lọc Sâm Ngọc Linh",
+      "danh_muc": "Trà sâm",
+      "gia": "550.000 đ",
+      "dac_diem": [
+        "7 thảo mộc cùng sâm Ngọc Linh",
+        "Hương hoa nhài",
+        "Dạng túi lọc"
+      ],
+      "mo_ta": "Thành phần:\n• Thân và lá sâm Ngọc Linh\n• Củ đẳng sâm Ngọc Linh\n• Hoa nhài, nụ tam thất bao tử, lá sen, giảo cổ lam, cỏ ngọt tự nhiên\n\nHương hoa nhài dịu, vị ngọt thanh từ cỏ ngọt, dễ uống hằng ngày.\n\nCách dùng:\n• 1 túi trà với 500–800ml nước nóng khoảng 90–95°C\n• Hãm 5–7 phút, có thể châm thêm nước 1–2 lần\n• Ngon hơn khi dùng ấm",
+      "thong_tin": {
+        "Mã sản phẩm": "TLS"
+      },
+      "anh": [
+        "tra-sam-ngoc-linh"
+      ],
+      "noi_bat": false
+    },
+    {
       "ma": "tra-la-sam",
       "ten": "Trà lá sâm Ngọc Linh",
-      "danh_muc": "",
+      "danh_muc": "Trà sâm",
       "gia": "",
       "dac_diem": [
         "Hộp thiếc vuông, nắp đậy",
@@ -95,12 +710,64 @@
       "anh": [
         "tra-la-sam"
       ],
-      "noi_bat": true
+      "noi_bat": false
+    },
+    {
+      "ma": "hong-dang-sam-say-deo",
+      "ten": "Hồng Đẳng Sâm Sấy Dẻo",
+      "danh_muc": "Đẳng sâm",
+      "gia": "",
+      "dac_diem": [
+        "Đẳng sâm loại 1",
+        "Sấy dẻo, ăn liền",
+        "Hộp nhỏ mang theo"
+      ],
+      "mo_ta": "Đẳng sâm loại 1 thái lát, sấy dẻo — mềm vừa phải, không quá khô cũng không quá dai. Nhai kỹ sẽ thấy vị ngọt nhẹ tự nhiên và hương thơm đặc trưng của sâm. Một hộp nhỏ mang theo khi làm việc, đi công tác, du lịch.",
+      "anh": [
+        "hong-dang-sam-say-deo"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "vien-ngam-sam-ngoc-linh",
+      "ten": "Viên Ngậm Sâm Vina",
+      "danh_muc": "Đẳng sâm",
+      "gia": "120.000 đ",
+      "dac_diem": [
+        "Sâm dây, gừng sẻ, mật ong, đường phèn",
+        "Không hương liệu nhân tạo"
+      ],
+      "mo_ta": "Viên ngậm làm từ bốn nguyên liệu, không dùng hương liệu nhân tạo:\n• Sâm dây Ngọc Linh (đẳng sâm) vị ngọt đắng dịu\n• Gừng sẻ củ nhỏ, thơm và cay nồng\n• Mật ong rừng\n• Đường phèn\n\nViên tan trong miệng với vị cay ấm của gừng, ngọt thanh của đường phèn và hương thảo dược của sâm dây.",
+      "thong_tin": {
+        "Mã sản phẩm": "VNS"
+      },
+      "anh": [
+        "vien-ngam-sam-ngoc-linh"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "dang-sam-ngoc-linh",
+      "ten": "Đẳng Sâm Ngọc Linh",
+      "danh_muc": "Đẳng sâm",
+      "gia": "550.000 đ",
+      "dac_diem": [
+        "Nước uống đóng chai",
+        "Hộp quà"
+      ],
+      "mo_ta": "Nước uống đẳng sâm Ngọc Linh đóng chai, hộp quà.",
+      "thong_tin": {
+        "Mã sản phẩm": "NDSNL"
+      },
+      "anh": [
+        "dang-sam-ngoc-linh"
+      ],
+      "noi_bat": false
     },
     {
       "ma": "keo-deo-sam",
       "ten": "Kẹo dẻo sâm",
-      "danh_muc": "",
+      "danh_muc": "Đẳng sâm",
       "gia": "",
       "dac_diem": [
         "Viên vuông vàng hổ phách",
@@ -117,52 +784,246 @@
         "keo-deo-sam",
         "gio-qua"
       ],
-      "noi_bat": true
+      "noi_bat": false
     },
     {
-      "ma": "tra-tui-loc-hop",
-      "ten": "Trà túi lọc sâm (hộp)",
-      "danh_muc": "",
-      "gia": "",
+      "ma": "yen-sao-chung-duong-phen-kid",
+      "ten": "Yến Sào Chưng Đường Phèn Kid",
+      "danh_muc": "Yến sào",
+      "gia": "510.000 đ",
       "dac_diem": [
-        "Dạng túi lọc, pha nhanh",
-        "Hộp giấy gọn nhẹ",
-        "Hợp văn phòng, đi công tác"
+        "Chưng sẵn",
+        "Dành cho trẻ em",
+        "Hộp quà"
       ],
-      "chat_lieu": "",
-      "kich_thuoc": "",
-      "mau_sac": "",
-      "xuat_xu": "",
-      "mo_ta": "Hộp giấy xanh lá viền xanh nhạt, in chữ Ngọc Linh Ginseng – Tea Bag.\n\nTrà túi lọc pha nhanh với nước nóng, hợp bàn làm việc và văn phòng.",
-      "thong_tin": {},
+      "mo_ta": "Yến sào chưng đường phèn dành cho trẻ em, hũ chưng sẵn trong hộp quà Yến Sào Thượng Hạng.",
       "anh": [
-        "tra-tui-loc-hop"
+        "yen-sao-chung-duong-phen-kid"
       ],
-      "noi_bat": true
+      "noi_bat": false
     },
     {
-      "ma": "tra-tui-loc-goi",
-      "ten": "Trà túi lọc sâm (gói)",
-      "danh_muc": "",
+      "ma": "yen-sao-collagen",
+      "ten": "Yến Sào Collagen",
+      "danh_muc": "Yến sào",
+      "gia": "510.000 đ",
+      "dac_diem": [
+        "Chưng sẵn",
+        "Hộp quà"
+      ],
+      "mo_ta": "Yến sào chưng collagen, hũ chưng sẵn trong hộp quà Yến Sào Thượng Hạng.",
+      "anh": [
+        "yen-sao-collagen"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "yen-chung-duong-phen",
+      "ten": "Yến Chưng Đường Phèn",
+      "danh_muc": "Yến sào",
+      "gia": "510.000 đ",
+      "dac_diem": [
+        "Chưng sẵn",
+        "Hộp quà"
+      ],
+      "mo_ta": "Yến chưng đường phèn, hũ chưng sẵn trong hộp quà Yến Sào Thượng Hạng.",
+      "anh": [
+        "yen-chung-duong-phen"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "yen-chung-dong-trung-ha-thao",
+      "ten": "Yến Chưng Đông Trùng Hạ Thảo",
+      "danh_muc": "Yến sào",
+      "gia": "510.000 đ",
+      "dac_diem": [
+        "Chưng sẵn",
+        "Đông trùng hạ thảo",
+        "Hộp quà"
+      ],
+      "mo_ta": "Yến chưng đông trùng hạ thảo, hũ chưng sẵn trong hộp quà Yến Sào Thượng Hạng.",
+      "anh": [
+        "yen-chung-dong-trung-ha-thao"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "yen-tho-nguyen-to",
+      "ten": "Yến Thô Nguyên Tổ",
+      "danh_muc": "Yến sào",
+      "gia": "3.850.000 đ",
+      "dac_diem": [
+        "Yến nguyên tổ",
+        "Nhà nuôi yến tại Đà Nẵng"
+      ],
+      "mo_ta": "Yến thô nguyên tổ thương hiệu Nam Bảo. Yến của Sâm Vina khai thác từ nhà nuôi yến tại 223 Nguyễn Xí, Đà Nẵng và thu mua từ các nhà yến khu vực Đà Nẵng, Quảng Nam.\n\nHướng dẫn chế biến:\n• Ngâm yến nguyên tổ trong nước sạch 30 phút\n• Dùng nhíp nhặt sợi lông yến và tạp chất\n• Rửa sạch nhiều lần, để ráo\n• Dùng yến tươi: cho vào ngăn đá dùng dần (bảo quản được 3 tháng)\n• Dùng yến khô: sấy thật khô, bảo quản nơi khô ráo\n\nCách chưng:\n• Yến tươi: khoảng 20g yến cho vào thố sứ/thuỷ tinh, thêm ít đường phèn, 1 lát gừng (ngon hơn nếu thêm táo tàu), chưng cách thuỷ 15 phút cho trẻ em, 20 phút cho người lớn\n• Yến khô: khoảng 5g yến ngâm nước ấm 10 phút cho mềm, thêm đường phèn, gừng, táo tàu, chưng cách thuỷ 20 phút\n\nLiều dùng:\n• Trẻ em: 1 tuần 1 lần, vào buổi sáng\n• Người lớn: ngày 1 lần, vào buổi sáng",
+      "anh": [
+        "yen-tho-nguyen-to"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "yen-sao-rut-long-50g",
+      "ten": "Yến Sào Rút Lông 50g",
+      "danh_muc": "Yến sào",
       "gia": "",
       "dac_diem": [
-        "Gói nhỏ, dễ mang theo",
-        "Nhãn xanh lá – vàng",
-        "Pha bằng nước nóng"
+        "Đã rút lông",
+        "Hộp 50g"
       ],
-      "chat_lieu": "",
-      "kich_thuoc": "",
-      "mau_sac": "",
-      "xuat_xu": "",
-      "mo_ta": "Gói trà túi lọc sâm Ngọc Linh màu xanh lá, nhãn vàng Samvina.\n\nTừng gói nhỏ dễ bỏ túi xách, mang theo khi đi xa.",
-      "thong_tin": {},
+      "mo_ta": "Yến sào rút lông 50g, thương hiệu Nam Bảo, hộp Yến Sào Cao Cấp. Yến của Sâm Vina khai thác từ nhà nuôi yến tại 223 Nguyễn Xí, Đà Nẵng và thu mua từ các nhà yến khu vực Đà Nẵng, Quảng Nam.\n\nHướng dẫn chế biến:\n• Ngâm yến nguyên tổ trong nước sạch 30 phút\n• Dùng nhíp nhặt sợi lông yến và tạp chất\n• Rửa sạch nhiều lần, để ráo\n• Dùng yến tươi: cho vào ngăn đá dùng dần (bảo quản được 3 tháng)\n• Dùng yến khô: sấy thật khô, bảo quản nơi khô ráo\n\nCách chưng:\n• Yến tươi: khoảng 20g yến cho vào thố sứ/thuỷ tinh, thêm ít đường phèn, 1 lát gừng (ngon hơn nếu thêm táo tàu), chưng cách thuỷ 15 phút cho trẻ em, 20 phút cho người lớn\n• Yến khô: khoảng 5g yến ngâm nước ấm 10 phút cho mềm, thêm đường phèn, gừng, táo tàu, chưng cách thuỷ 20 phút\n\nLiều dùng:\n• Trẻ em: 1 tuần 1 lần, vào buổi sáng\n• Người lớn: ngày 1 lần, vào buổi sáng",
       "anh": [
-        "tra-tui-loc-goi"
+        "yen-sao-rut-long-50g"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "yen-sao-tinh-che",
+      "ten": "Yến Sào Tinh Chế 100g",
+      "danh_muc": "Yến sào",
+      "gia": "",
+      "dac_diem": [
+        "Đã tinh chế",
+        "Hộp 100g"
+      ],
+      "mo_ta": "Yến sào tinh chế 100g, thương hiệu Nam Bảo — đã làm sạch, dùng nhanh. Yến của Sâm Vina khai thác từ nhà nuôi yến tại 223 Nguyễn Xí, Đà Nẵng và thu mua từ các nhà yến khu vực Đà Nẵng, Quảng Nam.\n\nHướng dẫn chế biến:\n• Ngâm yến nguyên tổ trong nước sạch 30 phút\n• Dùng nhíp nhặt sợi lông yến và tạp chất\n• Rửa sạch nhiều lần, để ráo\n• Dùng yến tươi: cho vào ngăn đá dùng dần (bảo quản được 3 tháng)\n• Dùng yến khô: sấy thật khô, bảo quản nơi khô ráo\n\nCách chưng:\n• Yến tươi: khoảng 20g yến cho vào thố sứ/thuỷ tinh, thêm ít đường phèn, 1 lát gừng (ngon hơn nếu thêm táo tàu), chưng cách thuỷ 15 phút cho trẻ em, 20 phút cho người lớn\n• Yến khô: khoảng 5g yến ngâm nước ấm 10 phút cho mềm, thêm đường phèn, gừng, táo tàu, chưng cách thuỷ 20 phút\n\nLiều dùng:\n• Trẻ em: 1 tuần 1 lần, vào buổi sáng\n• Người lớn: ngày 1 lần, vào buổi sáng",
+      "thong_tin": {
+        "Mã sản phẩm": "YSTC"
+      },
+      "anh": [
+        "yen-sao-tinh-che"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "yen-sao-rut-long-kho",
+      "ten": "Yến Sào Rút Lông Khô",
+      "danh_muc": "Yến sào",
+      "gia": "",
+      "dac_diem": [
+        "Rút lông khô",
+        "Hộp quà"
+      ],
+      "mo_ta": "Yến sào rút lông khô — sơ chế và nhặt lông khô để giữ nguyên tổ yến. Yến của Sâm Vina khai thác từ nhà nuôi yến tại 223 Nguyễn Xí, Đà Nẵng và thu mua từ các nhà yến khu vực Đà Nẵng, Quảng Nam.\n\nHướng dẫn chế biến:\n• Ngâm yến nguyên tổ trong nước sạch 30 phút\n• Dùng nhíp nhặt sợi lông yến và tạp chất\n• Rửa sạch nhiều lần, để ráo\n• Dùng yến tươi: cho vào ngăn đá dùng dần (bảo quản được 3 tháng)\n• Dùng yến khô: sấy thật khô, bảo quản nơi khô ráo\n\nCách chưng:\n• Yến tươi: khoảng 20g yến cho vào thố sứ/thuỷ tinh, thêm ít đường phèn, 1 lát gừng (ngon hơn nếu thêm táo tàu), chưng cách thuỷ 15 phút cho trẻ em, 20 phút cho người lớn\n• Yến khô: khoảng 5g yến ngâm nước ấm 10 phút cho mềm, thêm đường phèn, gừng, táo tàu, chưng cách thuỷ 20 phút\n\nLiều dùng:\n• Trẻ em: 1 tuần 1 lần, vào buổi sáng\n• Người lớn: ngày 1 lần, vào buổi sáng",
+      "thong_tin": {
+        "Mã sản phẩm": "YSRLT"
+      },
+      "anh": [
+        "yen-sao-rut-long-kho"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "yen-sao-rut-long-100g",
+      "ten": "Yến Sào Rút Lông 100g",
+      "danh_muc": "Yến sào",
+      "gia": "",
+      "dac_diem": [
+        "Đã rút lông",
+        "Hộp 100g"
+      ],
+      "mo_ta": "Yến sào rút lông 100g, thương hiệu Nam Bảo, hộp Yến Sào Cao Cấp. Yến của Sâm Vina khai thác từ nhà nuôi yến tại 223 Nguyễn Xí, Đà Nẵng và thu mua từ các nhà yến khu vực Đà Nẵng, Quảng Nam.\n\nHướng dẫn chế biến:\n• Ngâm yến nguyên tổ trong nước sạch 30 phút\n• Dùng nhíp nhặt sợi lông yến và tạp chất\n• Rửa sạch nhiều lần, để ráo\n• Dùng yến tươi: cho vào ngăn đá dùng dần (bảo quản được 3 tháng)\n• Dùng yến khô: sấy thật khô, bảo quản nơi khô ráo\n\nCách chưng:\n• Yến tươi: khoảng 20g yến cho vào thố sứ/thuỷ tinh, thêm ít đường phèn, 1 lát gừng (ngon hơn nếu thêm táo tàu), chưng cách thuỷ 15 phút cho trẻ em, 20 phút cho người lớn\n• Yến khô: khoảng 5g yến ngâm nước ấm 10 phút cho mềm, thêm đường phèn, gừng, táo tàu, chưng cách thuỷ 20 phút\n\nLiều dùng:\n• Trẻ em: 1 tuần 1 lần, vào buổi sáng\n• Người lớn: ngày 1 lần, vào buổi sáng",
+      "thong_tin": {
+        "Mã sản phẩm": "YSRL"
+      },
+      "anh": [
+        "yen-sao-rut-long-100g"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "yen-sao-chung-theo-yeu-cau",
+      "ten": "Yến Sào Chưng Theo Yêu Cầu",
+      "danh_muc": "Yến sào",
+      "gia": "350.000 đ",
+      "dac_diem": [
+        "20g yến tươi mỗi chén",
+        "Chưng theo khẩu vị",
+        "Chén 300ml"
+      ],
+      "mo_ta": "Chưng yến theo đơn đặt của khách.\n\nThành phần mỗi chén 300ml:\n• 20g tổ yến tươi tinh chế nguyên tổ (không dùng yến vụn)\n• Hạt sen tươi, táo đỏ Hàn Quốc, đường phèn, gừng… tuỳ khẩu vị",
+      "thong_tin": {
+        "Mã sản phẩm": "Yến Chưng theo yêu cầu 300ml"
+      },
+      "anh": [
+        "yen-sao-chung-theo-yeu-cau"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "yen-tuoi-tinh-che",
+      "ten": "Yến Tươi Tinh Chế",
+      "danh_muc": "Yến sào",
+      "gia": "",
+      "dac_diem": [
+        "Yến tươi đã tinh chế",
+        "Nhà nuôi yến tại Đà Nẵng"
+      ],
+      "mo_ta": "Yến tươi tinh chế thương hiệu Nam Bảo. Yến của Sâm Vina khai thác từ nhà nuôi yến tại 223 Nguyễn Xí, Đà Nẵng và thu mua từ các nhà yến khu vực Đà Nẵng, Quảng Nam.\n\nHướng dẫn chế biến:\n• Ngâm yến nguyên tổ trong nước sạch 30 phút\n• Dùng nhíp nhặt sợi lông yến và tạp chất\n• Rửa sạch nhiều lần, để ráo\n• Dùng yến tươi: cho vào ngăn đá dùng dần (bảo quản được 3 tháng)\n• Dùng yến khô: sấy thật khô, bảo quản nơi khô ráo\n\nCách chưng:\n• Yến tươi: khoảng 20g yến cho vào thố sứ/thuỷ tinh, thêm ít đường phèn, 1 lát gừng (ngon hơn nếu thêm táo tàu), chưng cách thuỷ 15 phút cho trẻ em, 20 phút cho người lớn\n• Yến khô: khoảng 5g yến ngâm nước ấm 10 phút cho mềm, thêm đường phèn, gừng, táo tàu, chưng cách thuỷ 20 phút\n\nLiều dùng:\n• Trẻ em: 1 tuần 1 lần, vào buổi sáng\n• Người lớn: ngày 1 lần, vào buổi sáng",
+      "anh": [
+        "yen-tuoi-tinh-che"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "giao-co-lam-tra",
+      "ten": "Trà Giảo Cổ Lam",
+      "danh_muc": "Thảo dược & mật ong",
+      "gia": "",
+      "dac_diem": [
+        "Trà thảo dược",
+        "Đóng túi"
+      ],
+      "mo_ta": "Trà giảo cổ lam đóng túi, thương hiệu Sâm Vina. Giảo cổ lam là thảo dược dùng pha trà uống hằng ngày.",
+      "anh": [
+        "giao-co-lam-tra"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "mat-ong-rung",
+      "ten": "Mật Ong Rừng",
+      "danh_muc": "Thảo dược & mật ong",
+      "gia": "750.000 đ",
+      "dac_diem": [
+        "Mật ong rừng tự nhiên",
+        "Chai thuỷ tinh"
+      ],
+      "mo_ta": "Mật ong rừng tự nhiên, chai thuỷ tinh. Dùng pha nước ấm, dùng kèm sâm hoặc trong nấu ăn.",
+      "anh": [
+        "mat-ong-rung"
+      ],
+      "noi_bat": false
+    },
+    {
+      "ma": "nam-lim-xanh",
+      "ten": "Nấm Lim Xanh",
+      "danh_muc": "Thảo dược & mật ong",
+      "gia": "",
+      "dac_diem": [
+        "Khai thác rừng Quảng Nam",
+        "Không chất bảo quản"
+      ],
+      "mo_ta": "Nấm lim xanh tự nhiên khai thác ở rừng Quảng Nam, mọc trên gốc rễ và thân cây lim đã chết. Nấm nguyên chất, không chất bảo quản.\n\nCách dùng:\n• Bảo quản ngăn mát tủ lạnh (để ngoài dễ bị mọt)\n• Cắt bỏ phần gốc nấm, rửa sạch tai và thân, thái lát mỏng\n• Nấu nước uống thay nước lọc hằng ngày (khuyên dùng), hoặc hãm với nước sôi như hãm trà",
+      "anh": [
+        "nam-lim-xanh"
       ],
       "noi_bat": false
     }
   ],
-  "nhan": {},
-  "chan_trang": "",
-  "_noi_dung_tu_soan": "Tên sản phẩm (đọc từ nhãn), khẩu hiệu, giới thiệu, điểm nổi bật, đặc điểm, hỏi đáp do Claude soạn từ 2 ảnh quảng cáo (09/10/2026). Không đưa khuyến mãi 50%/mua 2 tặng 1 lên web. Cần đối tác xác nhận."
+  "nhan": {
+    "vi_sao": "Vì sao chọn Sâm Vina",
+    "kham_pha": "Sản phẩm tiêu biểu",
+    "san_pham": "Tất cả sản phẩm",
+    "dai_chay": "Sản phẩm của Sâm Vina",
+    "quy_dao": "Từ núi Ngọc Linh đến tay Quý khách",
+    "quy_trinh": "Quy trình đổi trả hàng",
+    "lien_he": "Đặt hàng & tư vấn",
+    "chung_nhan": "Tiêu chuẩn chất lượng sản phẩm",
+    "nut_bao_gia": "Đặt hàng"
+  },
+  "chan_trang": "Thực phẩm này không phải là thuốc, không có tác dụng thay thế thuốc chữa bệnh. Rượu sâm không dành cho người dưới 18 tuổi.",
+  "_nguon": "Dựng từ https://samngoclinhvietnam.com.vn/ (tải ngày 09/10/2026): 45 sản phẩm, giới thiệu, liên hệ, chính sách đổi trả, chứng nhận. Bản trích gốc ở nguon/.",
+  "_noi_dung_tu_soan": "Lấy từ web gốc nhưng đã BIÊN TẬP: bỏ mọi câu nhắc công dụng chữa bệnh (ung thư, tiểu đường, gan, huyết áp, sinh lý…) vì thực phẩm không được quảng cáo như thuốc; bỏ giá ảo 10đ/65đ/3.500đ; dùng hotline + chi nhánh ở chân trang hiện tại (một số trang sản phẩm còn ghi 0977 008 777 và 382 Nguyễn Thị Minh Khai — thông tin cũ). Tên viết lại thường/hoa cho dễ đọc. Mô tả vài sản phẩm ngắn vì web gốc không có thêm thông tin (yến chưng, đẳng sâm, giảo cổ lam). Số liệu 45 sản phẩm / 2 văn phòng đếm từ web gốc; 13 danh mục gốc gộp còn 9 nhóm. CẦN SÂM VINA XÁC NHẬN: hai sản phẩm 'Rượu Sâm Dây Ngọc Linh' 750.000 đ và 1.500.000 đ khác nhau thế nào; 'Cây Sâm Ngọc Linh' và 'Lá Sâm Ngọc Linh' chưa có ảnh. Hai sản phẩm 'Trà lá sâm Ngọc Linh' và 'Kẹo dẻo sâm' lấy từ bản dựng trên điện thoại sáng 09/10 (đọc từ ảnh quảng cáo, không có trên web cũ)."
 }

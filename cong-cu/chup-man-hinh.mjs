@@ -60,6 +60,14 @@ async function soi(trang, ten) {
       if (el.innerText && el.innerText.trim() && parseFloat(s.fontSize) < 13.5 && s.display !== 'none' && !el.closest('.thanh-day'))
         r.chuNho.push(el.innerText.trim().slice(0, 30) + ` (${s.fontSize})`);
     }
+    // Bị CẮT mà không tràn: body có overflow-x:hidden nên trang không vuốt ngang được, nhưng nút/chữ vẫn lố
+    // ra mép phải và bị cụt. scrollWidth không thấy lỗi này — phải đo từng phần tử.
+    r.cut = [];
+    for (const el of document.querySelectorAll('main .btn, main h1, main h2, main p, main .badge, main .the-sp, main .tab-pane, main .dat-wrap, main .ds-lh a, footer a')) {
+      if (!el.getClientRects().length || el.closest('.marquee, .tabs-menu, .loc, .truot, .quy-dao, .menu')) continue;
+      const b = el.getBoundingClientRect();
+      if (b.right > window.innerWidth + 1 || b.left < -1) r.cut.push((el.innerText || el.className).trim().slice(0, 30) + ` (${Math.round(b.left)}→${Math.round(b.right)})`);
+    }
     for (const im of document.images) {
       if (!im.getClientRects().length || im.closest('.anh-muc, .chon-vis')) continue;   // ảnh trong khối đang thu gọn
       if (!im.complete || im.naturalWidth === 0) r.anhHong.push(im.getAttribute('src'));
@@ -69,6 +77,7 @@ async function soi(trang, ten) {
   if (kq.tran > 1) loi.push(`${ten}: TRÀN NGANG ${kq.tran}px`);
   if (kq.nho.length) loi.push(`${ten}: nút nhỏ hơn 40px → ${[...new Set(kq.nho)].slice(0, 6).join(' · ')}`);
   if (kq.chuNho.length) loi.push(`${ten}: chữ nhỏ → ${[...new Set(kq.chuNho)].slice(0, 4).join(' · ')}`);
+  if (kq.cut.length) loi.push(`${ten}: BỊ CẮT MÉP → ${[...new Set(kq.cut)].slice(0, 6).join(' · ')}`);
   if (kq.anhHong.length) loi.push(`${ten}: ảnh hỏng → ${kq.anhHong.join(', ')}`);
 }
 
@@ -77,16 +86,17 @@ async function chup(url, ten, khung, motMan = false) {
   const trang = await ctx.newPage();
   trang.on('pageerror', e => loi.push(`${ten}: lỗi JS ${e.message}`));
   await trang.goto(goc + url, { waitUntil: 'networkidle' }).catch(() => {});
+  // Ảnh lazy: buộc tải hết TRƯỚC khi cuộn — ảnh về muộn làm trang dài ra sau lượt cuộn, khối cuối trượt khỏi tầm quan sát;
+  // và chụp lúc ảnh chưa về là ra ô trống, trông như ảnh hỏng
+  await trang.evaluate(() => document.querySelectorAll('img[loading="lazy"]').forEach(i => { i.loading = 'eager'; }));
+  await trang.waitForLoadState('networkidle').catch(() => {});
+  await trang.waitForTimeout(300);
   // Cuộn CHẬM như người thật: ảnh lazy tải xong và mọi khối "trượt lên khi cuộn" được kích hoạt.
   // (Cuộn nhanh rồi chụp ngay là chụp lúc các khối còn đang mờ dần — ảnh ra mảng trắng, trông như web hỏng.)
   await trang.evaluate(async () => {
     for (let y = 0; y < document.body.scrollHeight; y += 350) { window.scrollTo({ top: y, behavior: 'instant' }); await new Promise(r => setTimeout(r, 140)); }
     window.scrollTo({ top: document.body.scrollHeight, behavior: 'instant' }); await new Promise(r => setTimeout(r, 300));
   });
-  // Ảnh lazy: buộc tải hết rồi chờ — chụp lúc ảnh chưa về là ra ô trống, trông như ảnh hỏng
-  await trang.evaluate(() => document.querySelectorAll('img[loading="lazy"]').forEach(i => { i.loading = 'eager'; }));
-  await trang.waitForLoadState('networkidle').catch(() => {});
-  await trang.waitForTimeout(300);
   const anCon = await trang.evaluate(() => [...document.querySelectorAll('.reveal')].filter(x => !x.classList.contains('in') && x.getClientRects().length).length);
   if (anCon) loi.push(`${ten}: ${anCon} khối KHÔNG BAO GIỜ HIỆN dù đã cuộn qua (hiệu ứng trượt lên hỏng)`);
   // Chụp trạng thái cuối của hiệu ứng, không chụp giữa chừng

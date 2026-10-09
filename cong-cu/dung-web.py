@@ -129,7 +129,10 @@ class Dung:
         self.anh_dung = set()
         self.kich_thuoc = {}
         self.dt = so_dien_thoai(self.lh.get("dien_thoai"))
-        self.zalo = so_dien_thoai(self.lh.get("zalo")) or self.dt
+        z = str(self.lh.get("zalo") or "").strip()
+        self.zalo_url = z if z.startswith("http") else ""      # Zalo Official Account: zalo.me/s/...
+        self.zalo = ((self.lh.get("ten_zalo") or "Zalo Official Account", "", "") if self.zalo_url
+                     else so_dien_thoai(z) or self.dt)
         self.css = (KHUNG / "giao-dien.css").read_text("utf-8")
         self.js = (KHUNG / "tuong-tac.js").read_text("utf-8")
 
@@ -193,6 +196,8 @@ class Dung:
 
     # ─── liên kết liên hệ ───
     def link_zalo(self):
+        if self.zalo_url:
+            return self.zalo_url
         return "https://zalo.me/%s" % self.zalo[2] if self.zalo else ""
 
     def link_goi(self):
@@ -300,7 +305,7 @@ class Dung:
         if self.dt:
             lh.append('<li><a href="%s">Gọi %s</a></li>' % (self.link_goi(), e(self.dt[0])))
         if self.zalo:
-            lh.append('<li><a href="%s">Zalo %s</a></li>' % (self.link_zalo(), e(self.zalo[0])))
+            lh.append('<li><a href="%s">%s</a></li>' % (self.link_zalo(), e(self.zalo[0] if self.zalo_url else "Zalo " + self.zalo[0])))
         if self.lh.get("facebook"):
             lh.append('<li><a href="%s" target="_blank" rel="noopener">Facebook</a></li>' % e(self.lh["facebook"]))
         if self.lh.get("email"):
@@ -327,7 +332,8 @@ class Dung:
     # ─── thẻ sản phẩm ───
     def the_sp(self, s, tre=0):
         t = self.anh_dau_sp(s)
-        anh = self.img(t, s["ten"], "(min-width:992px) 25vw, (min-width:600px) 33vw, 50vw") if t else ""
+        anh = (self.img(t, s["ten"], "(min-width:992px) 25vw, (min-width:600px) 33vw, 50vw") if t
+               else '<span class="chua-anh">%s<small>Ảnh đang cập nhật</small></span>' % e(self.ten))
         return ('<a class="the-sp reveal%s" href="/san-pham/%s/" data-dm="%s"><div class="o-anh">%s</div>'
                 '<div class="chu"><h3>%s</h3>%s<span class="xem">Xem chi tiết <span aria-hidden="true">→</span></span></div></a>') % (
             " d%d" % tre if tre else "", s["ma"], e(s.get("danh_muc", "")), anh, e(s["ten"]), self.gia(s))
@@ -545,6 +551,19 @@ class Dung:
                 '<li class="reveal"><h4>%s</h4>%s</li>' % (e(x["tieu_de"]), "<p>%s</p>" % e(x["mo_ta"]) if x.get("mo_ta") else "")
                 for x in qt))
 
+    def muc_chung_nhan(self):
+        cn = [x for x in self.d.get("chung_nhan") or [] if self.co_anh(x.get("anh"))]
+        if not cn:
+            return ""
+        o = "".join('<a class="o-cn reveal%s" href="/anh/%s-1280.webp" aria-label="Xem %s"><span class="khung-cn">%s</span><b>%s</b></a>' % (
+            " d%d" % (i % 4) if i % 4 else "", x["anh"], e(x.get("ten") or "giấy chứng nhận"),
+            self.img(x["anh"], x.get("ten") or "Giấy chứng nhận", "(min-width:992px) 20vw, 45vw"), e(x.get("ten") or ""))
+            for i, x in enumerate(cn))
+        return ('<section class="cach nen-nhat" id="chung-nhan"><div class="khung"><div class="dau-muc reveal"><h2>%s</h2>%s</div>'
+                '<div class="luoi-cn">%s</div></div></section>') % (
+            e(self.nhan.get("chung_nhan") or "Chứng nhận chất lượng"),
+            "<p>%s</p>" % e(self.ct["phu_de_chung_nhan"]) if self.ct.get("phu_de_chung_nhan") else "", o)
+
     def muc_hoi_dap(self):
         hd = [x for x in self.d.get("hoi_dap") or [] if x.get("hoi") and x.get("dap")]
         if not hd:
@@ -577,6 +596,14 @@ class Dung:
             them(self.link_ban_do(), "ghim", "Địa chỉ — chạm để chỉ đường", self.lh["dia_chi"], True)
         if self.lh.get("gio_mo_cua"):
             them("", "dong_ho", "Giờ mở cửa", self.lh["gio_mo_cua"])
+        for x in self.lh.get("khac") or []:
+            if not (x.get("nhan") and x.get("gia_tri")):
+                continue
+            link = x.get("link") or ""
+            if not link and x.get("bieu") == "goi" and so_dien_thoai(x["gia_tri"]):
+                link = "tel:" + so_dien_thoai(x["gia_tri"])[1]
+            them(link, x.get("bieu") if x.get("bieu") in BIEU else "ghim", x["nhan"], x["gia_tri"],
+                 link.startswith("http"))
         if not dong:
             return ""
         form = ""
@@ -626,7 +653,7 @@ class Dung:
             self.dau_html(tieu_de, mo_ta, "/", "/og/trang-chu.jpg" if bia else "", [ld, ld_hd]),
             self.dau_trang(True), "<main>",
             self.muc_bia(), self.muc_dai_chay(), self.muc_vi_sao(), self.muc_kham_pha(), self.muc_luoi(),
-            self.muc_so_lieu(), self.muc_quy_dao(), self.muc_danh_gia(), self.muc_gioi_thieu(), self.muc_quy_trinh(),
+            self.muc_so_lieu(), self.muc_quy_dao(), self.muc_danh_gia(), self.muc_gioi_thieu(), self.muc_chung_nhan(), self.muc_quy_trinh(),
             self.muc_hoi_dap(), self.muc_lien_he(),
             "</main>", self.chan_trang(), self.thanh_day(), self.cuoi_html()])
 
@@ -784,7 +811,7 @@ class Dung:
         muc = [m for m, co in (("dải chữ chạy", self.muc_dai_chay()), ("vì sao chọn", self.muc_vi_sao()),
                                ("tab khám phá", self.muc_kham_pha()), ("số liệu", self.muc_so_lieu()),
                                ("quỹ đạo", self.muc_quy_dao()), ("lời khách", self.muc_danh_gia()),
-                               ("giới thiệu", self.muc_gioi_thieu()), ("quy trình", self.muc_quy_trinh()),
+                               ("giới thiệu", self.muc_gioi_thieu()), ("chứng nhận", self.muc_chung_nhan()), ("quy trình", self.muc_quy_trinh()),
                                ("hỏi đáp", self.muc_hoi_dap())) if co]
         print("✔ Đã dựng %s: trang chủ + %d trang sản phẩm · %d ảnh · %.1f MB" % (
             self.ra, len(self.sp), len(self.anh_dung), tong / 1e6))

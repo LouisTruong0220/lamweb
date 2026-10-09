@@ -84,7 +84,7 @@ def main():
     if not any(lh.get(k) for k in ("dien_thoai", "zalo", "facebook", "email")):
         loi.append("Không có cách liên hệ nào (điện thoại / Zalo / Facebook / email)")
     for k in ("dien_thoai", "zalo"):
-        if lh.get(k) and not so_dien_thoai(lh[k]):
+        if lh.get(k) and not so_dien_thoai(lh[k]) and not (k == "zalo" and str(lh[k]).startswith("https://zalo.me/")):
             loi.append("lien_he.%s = %r không phải số điện thoại Việt Nam hợp lệ" % (k, lh[k]))
     try:
         b = bang_mau(gd.get("mau_chu_dao") or "#2F5D62")
@@ -110,6 +110,9 @@ def main():
         for t in s.get("anh") or []:
             if not (goc / "anh" / ("%s-640.webp" % t)).exists():
                 loi.append("%s: ảnh %r không có trong anh/ (chạy xu-ly-anh.py? sai tên?)" % (ten, t))
+    for x in d.get("chung_nhan") or []:
+        if not (goc / "anh" / ("%s-640.webp" % x.get("anh"))).exists():
+            loi.append("chung_nhan: ảnh %r không có trong anh/" % x.get("anh"))
     for k, v in (("anh_bia", gd.get("anh_bia")), ("logo", ct.get("logo")), ("anh_gioi_thieu", ct.get("anh_gioi_thieu"))):
         if v and not (goc / "anh" / ("%s-640.webp" % v)).exists():
             loi.append("%s = %r không có trong anh/" % (k, v))

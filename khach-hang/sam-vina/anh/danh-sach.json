@@ -1,7 +1,117 @@
 {
+ "anh-cuoi": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\anh-cuoi.jpg",
+  "mtime": 1791553147,
+  "rong": 463,
+  "cao": 477,
+  "huong": "vuong",
+  "mau_trung_binh": "#F48D74",
+  "logo": false,
+  "kb_640": 6
+ },
+ "anh-khach-1": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\anh-khach-1.jpg",
+  "mtime": 1791553146,
+  "rong": 1706,
+  "cao": 1706,
+  "huong": "vuong",
+  "mau_trung_binh": "#917D64",
+  "logo": false,
+  "kb_640": 24
+ },
+ "anh-khach-2": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\anh-khach-2.jpg",
+  "mtime": 1791553147,
+  "rong": 373,
+  "cao": 373,
+  "huong": "vuong",
+  "mau_trung_binh": "#C0C7C9",
+  "logo": false,
+  "kb_640": 5
+ },
+ "anh-tien": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\anh-tien.jpg",
+  "mtime": 1791553146,
+  "rong": 100,
+  "cao": 100,
+  "huong": "vuong",
+  "mau_trung_binh": "#A19792",
+  "logo": false,
+  "kb_640": 2
+ },
+ "anh-z1": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\anh-z1.jpg",
+  "mtime": 1791553146,
+  "rong": 1275,
+  "cao": 498,
+  "huong": "ngang",
+  "mau_trung_binh": "#99BF95",
+  "logo": false,
+  "kb_640": 26
+ },
+ "anh-z2": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\anh-z2.jpg",
+  "mtime": 1791553146,
+  "rong": 2560,
+  "cao": 983,
+  "huong": "ngang",
+  "mau_trung_binh": "#A8B29C",
+  "logo": false,
+  "kb_640": 23
+ },
+ "banner-backdrop": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\banner-backdrop.png",
+  "mtime": 1791553145,
+  "rong": 1920,
+  "cao": 550,
+  "huong": "ngang",
+  "mau_trung_binh": "#6CA374",
+  "logo": false,
+  "kb_640": 28
+ },
+ "banner-khai-truong": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\banner-khai-truong.jpg",
+  "mtime": 1791553145,
+  "rong": 1356,
+  "cao": 529,
+  "huong": "ngang",
+  "mau_trung_binh": "#B98981",
+  "logo": false,
+  "kb_640": 47
+ },
+ "banner-ruou-sam": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\banner-ruou-sam.jpg",
+  "mtime": 1791553144,
+  "rong": 1356,
+  "cao": 529,
+  "huong": "ngang",
+  "mau_trung_binh": "#A38C74",
+  "logo": false,
+  "kb_640": 22
+ },
+ "banner-sam-ngoc-linh": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\banner-sam-ngoc-linh.jpg",
+  "mtime": 1791553144,
+  "rong": 2953,
+  "cao": 1279,
+  "huong": "ngang",
+  "mau_trung_binh": "#98A58A",
+  "logo": false,
+  "kb_640": 48
+ },
+ "banner-tinh-chat": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\banner-tinh-chat.png",
+  "mtime": 1791553145,
+  "rong": 2284,
+  "cao": 875,
+  "huong": "ngang",
+  "mau_trung_binh": "#B5B66A",
+  "logo": false,
+  "kb_640": 29
+ },
  "bo-san-pham": {
-  "nguon": "khach-hang/sam-vina/anh-goc/bo-san-pham.jpg",
-  "mtime": 1791536460,
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\bo-san-pham.jpg",
+  "mtime": 1791554093,
   "rong": 600,
   "cao": 460,
   "huong": "ngang",
@@ -9,9 +119,99 @@
   "logo": false,
   "kb_640": 37
  },
+ "cao-la-sam-ngoc-linh-250": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\cao-la-sam-ngoc-linh-250.png",
+  "mtime": 1791553126,
+  "rong": 1080,
+  "cao": 1080,
+  "huong": "vuong",
+  "mau_trung_binh": "#9F452B",
+  "logo": false,
+  "kb_640": 56
+ },
+ "cao-la-sam-ngoc-linh-75ml": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\cao-la-sam-ngoc-linh-75ml.png",
+  "mtime": 1791553125,
+  "rong": 1080,
+  "cao": 1080,
+  "huong": "vuong",
+  "mau_trung_binh": "#A2482D",
+  "logo": false,
+  "kb_640": 58
+ },
+ "chung-nhan-attp-1": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\chung-nhan-attp-1.jpg",
+  "mtime": 1791553142,
+  "rong": 1836,
+  "cao": 2560,
+  "huong": "doc",
+  "mau_trung_binh": "#B0AC9E",
+  "logo": false,
+  "kb_640": 42
+ },
+ "chung-nhan-attp-2": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\chung-nhan-attp-2.jpg",
+  "mtime": 1791553143,
+  "rong": 1814,
+  "cao": 2558,
+  "huong": "doc",
+  "mau_trung_binh": "#ADA99A",
+  "logo": false,
+  "kb_640": 44
+ },
+ "chung-nhan-fda": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\chung-nhan-fda.jpg",
+  "mtime": 1791553143,
+  "rong": 1446,
+  "cao": 2048,
+  "huong": "doc",
+  "mau_trung_binh": "#C7C7D0",
+  "logo": false,
+  "kb_640": 61
+ },
+ "chung-nhan-haccp": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\chung-nhan-haccp.jpg",
+  "mtime": 1791553143,
+  "rong": 1532,
+  "cao": 2279,
+  "huong": "doc",
+  "mau_trung_binh": "#E2E6E2",
+  "logo": false,
+  "kb_640": 48
+ },
+ "chung-nhan-iso": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\chung-nhan-iso.jpg",
+  "mtime": 1791553143,
+  "rong": 1190,
+  "cao": 1672,
+  "huong": "doc",
+  "mau_trung_binh": "#CBCBC9",
+  "logo": false,
+  "kb_640": 79
+ },
+ "dang-sam-ngoc-linh": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\dang-sam-ngoc-linh.jpg",
+  "mtime": 1791553127,
+  "rong": 2048,
+  "cao": 2048,
+  "huong": "vuong",
+  "mau_trung_binh": "#AC8C6D",
+  "logo": false,
+  "kb_640": 40
+ },
+ "giao-co-lam-tra": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\giao-co-lam-tra.png",
+  "mtime": 1791553127,
+  "rong": 800,
+  "cao": 800,
+  "huong": "vuong",
+  "mau_trung_binh": "#B5C2A9",
+  "logo": false,
+  "kb_640": 50
+ },
  "gio-qua": {
-  "nguon": "khach-hang/sam-vina/anh-goc/gio-qua.jpg",
-  "mtime": 1791536460,
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\gio-qua.jpg",
+  "mtime": 1791554093,
   "rong": 460,
   "cao": 430,
   "huong": "vuong",
@@ -19,9 +219,19 @@
   "logo": false,
   "kb_640": 32
  },
+ "hong-dang-sam-say-deo": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\hong-dang-sam-say-deo.jpg",
+  "mtime": 1791553126,
+  "rong": 896,
+  "cao": 1195,
+  "huong": "doc",
+  "mau_trung_binh": "#8A7F6C",
+  "logo": false,
+  "kb_640": 20
+ },
  "keo-deo-sam": {
-  "nguon": "khach-hang/sam-vina/anh-goc/keo-deo-sam.jpg",
-  "mtime": 1791536460,
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\keo-deo-sam.jpg",
+  "mtime": 1791554093,
   "rong": 280,
   "cao": 290,
   "huong": "vuong",
@@ -29,9 +239,339 @@
   "logo": false,
   "kb_640": 17
  },
+ "logo-2": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\logo-2.png",
+  "mtime": 1791553144,
+  "rong": 1537,
+  "cao": 384,
+  "huong": "ngang",
+  "mau_trung_binh": "#EEE9C4",
+  "logo": true,
+  "kb_640": 26
+ },
+ "logo": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\logo.png",
+  "mtime": 1791553144,
+  "rong": 542,
+  "cao": 384,
+  "huong": "ngang",
+  "mau_trung_binh": "#D1D9BE",
+  "logo": true,
+  "kb_640": 16
+ },
+ "mat-ong-rung": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\mat-ong-rung.png",
+  "mtime": 1791553128,
+  "rong": 800,
+  "cao": 800,
+  "huong": "vuong",
+  "mau_trung_binh": "#ECEBDB",
+  "logo": false,
+  "kb_640": 15
+ },
+ "nam-lim-xanh": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\nam-lim-xanh.jpg",
+  "mtime": 1791553128,
+  "rong": 500,
+  "cao": 500,
+  "huong": "vuong",
+  "mau_trung_binh": "#6B5A4B",
+  "logo": false,
+  "kb_640": 38
+ },
+ "ruou-bong-sam-ngoc-linh": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\ruou-bong-sam-ngoc-linh.jpg",
+  "mtime": 1791553131,
+  "rong": 1057,
+  "cao": 1280,
+  "huong": "doc",
+  "mau_trung_binh": "#BEA580",
+  "logo": false,
+  "kb_640": 63
+ },
+ "ruou-cu-sam-ngoc-linh-45-lit": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\ruou-cu-sam-ngoc-linh-45-lit.jpg",
+  "mtime": 1791553130,
+  "rong": 1049,
+  "cao": 1280,
+  "huong": "doc",
+  "mau_trung_binh": "#BFAB5E",
+  "logo": false,
+  "kb_640": 57
+ },
+ "ruou-diep-linh-sam": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\ruou-diep-linh-sam.jpg",
+  "mtime": 1791553131,
+  "rong": 960,
+  "cao": 1280,
+  "huong": "doc",
+  "mau_trung_binh": "#8DAE7E",
+  "logo": false,
+  "kb_640": 37
+ },
+ "ruou-la-sam-ngoc-linhno3": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\ruou-la-sam-ngoc-linhno3.jpg",
+  "mtime": 1791553129,
+  "rong": 855,
+  "cao": 1280,
+  "huong": "doc",
+  "mau_trung_binh": "#B0A068",
+  "logo": false,
+  "kb_640": 40
+ },
+ "ruou-sam-day-ngoc-linh-dang-sam": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\ruou-sam-day-ngoc-linh-dang-sam.png",
+  "mtime": 1791553128,
+  "rong": 1080,
+  "cao": 1080,
+  "huong": "vuong",
+  "mau_trung_binh": "#829F66",
+  "logo": false,
+  "kb_640": 33
+ },
+ "ruou-sam-day-ngoc-linh": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\ruou-sam-day-ngoc-linh.jpg",
+  "mtime": 1791553128,
+  "rong": 1828,
+  "cao": 1828,
+  "huong": "vuong",
+  "mau_trung_binh": "#45311E",
+  "logo": false,
+  "kb_640": 29
+ },
+ "ruou-sam-ngoc-linh-500-ml": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\ruou-sam-ngoc-linh-500-ml.jpg",
+  "mtime": 1791553129,
+  "rong": 896,
+  "cao": 1195,
+  "huong": "doc",
+  "mau_trung_binh": "#82422D",
+  "logo": false,
+  "kb_640": 34
+ },
+ "ruou-sam-ngoc-linh-cay-1-lit": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\ruou-sam-ngoc-linh-cay-1-lit.jpg",
+  "mtime": 1791553129,
+  "rong": 1280,
+  "cao": 1265,
+  "huong": "vuong",
+  "mau_trung_binh": "#B89D6D",
+  "logo": false,
+  "kb_640": 79
+ },
+ "ruou-sam-ngoc-linh-cay-2-lit": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\ruou-sam-ngoc-linh-cay-2-lit.jpg",
+  "mtime": 1791553130,
+  "rong": 822,
+  "cao": 1280,
+  "huong": "doc",
+  "mau_trung_binh": "#C4B37B",
+  "logo": false,
+  "kb_640": 40
+ },
+ "ruou-sam-ngoc-linh-cay-3-lit": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\ruou-sam-ngoc-linh-cay-3-lit.jpg",
+  "mtime": 1791553130,
+  "rong": 852,
+  "cao": 1280,
+  "huong": "doc",
+  "mau_trung_binh": "#C0B686",
+  "logo": false,
+  "kb_640": 46
+ },
+ "ruou-sam-ngoc-linh-cay-5-lit": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\ruou-sam-ngoc-linh-cay-5-lit.jpg",
+  "mtime": 1791553130,
+  "rong": 839,
+  "cao": 1280,
+  "huong": "doc",
+  "mau_trung_binh": "#C3B586",
+  "logo": false,
+  "kb_640": 40
+ },
+ "ruou-sam-ngoc-linh-vip74-2": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\ruou-sam-ngoc-linh-vip74-2.png",
+  "mtime": 1791553131,
+  "rong": 800,
+  "cao": 800,
+  "huong": "vuong",
+  "mau_trung_binh": "#E9EAD7",
+  "logo": false,
+  "kb_640": 18
+ },
+ "ruou-sam-ngoc-linh-vip74": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\ruou-sam-ngoc-linh-vip74.png",
+  "mtime": 1791553130,
+  "rong": 800,
+  "cao": 800,
+  "huong": "vuong",
+  "mau_trung_binh": "#E9EAD7",
+  "logo": false,
+  "kb_640": 18
+ },
+ "sam-day-ngoc-linh-sam-vina": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\sam-day-ngoc-linh-sam-vina.png",
+  "mtime": 1791553129,
+  "rong": 800,
+  "cao": 800,
+  "huong": "vuong",
+  "mau_trung_binh": "#B58B70",
+  "logo": false,
+  "kb_640": 16
+ },
+ "sam-ngam-mat-ong-75ml": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\sam-ngam-mat-ong-75ml.png",
+  "mtime": 1791553132,
+  "rong": 1080,
+  "cao": 1080,
+  "huong": "vuong",
+  "mau_trung_binh": "#A64B31",
+  "logo": false,
+  "kb_640": 56
+ },
+ "sam-ngoc-linh-18-2": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\sam-ngoc-linh-18-2.jpg",
+  "mtime": 1791553131,
+  "rong": 852,
+  "cao": 1280,
+  "huong": "doc",
+  "mau_trung_binh": "#A3BD5D",
+  "logo": false,
+  "kb_640": 51
+ },
+ "sam-ngoc-linh-18": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\sam-ngoc-linh-18.jpg",
+  "mtime": 1791553131,
+  "rong": 852,
+  "cao": 1280,
+  "huong": "doc",
+  "mau_trung_binh": "#A3BD5D",
+  "logo": false,
+  "kb_640": 51
+ },
+ "sam-ngoc-linh-blue-silver": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\sam-ngoc-linh-blue-silver.jpg",
+  "mtime": 1791553129,
+  "rong": 1574,
+  "cao": 2047,
+  "huong": "doc",
+  "mau_trung_binh": "#6C4E45",
+  "logo": false,
+  "kb_640": 20
+ },
+ "sam-ngoc-linh-cu-tuoi-loai-1": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\sam-ngoc-linh-cu-tuoi-loai-1.png",
+  "mtime": 1791553135,
+  "rong": 2000,
+  "cao": 2000,
+  "huong": "vuong",
+  "mau_trung_binh": "#DEDAD1",
+  "logo": false,
+  "kb_640": 47
+ },
+ "sam-ngoc-linh-cu-tuoi": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\sam-ngoc-linh-cu-tuoi.jpg",
+  "mtime": 1791553136,
+  "rong": 500,
+  "cao": 500,
+  "huong": "vuong",
+  "mau_trung_binh": "#E7DECF",
+  "logo": false,
+  "kb_640": 31
+ },
+ "sam-ngoc-linh-mat-ong-250ml-2": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\sam-ngoc-linh-mat-ong-250ml-2.png",
+  "mtime": 1791553134,
+  "rong": 1080,
+  "cao": 1080,
+  "huong": "vuong",
+  "mau_trung_binh": "#A6512E",
+  "logo": false,
+  "kb_640": 58
+ },
+ "sam-ngoc-linh-mat-ong-250ml": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\sam-ngoc-linh-mat-ong-250ml.png",
+  "mtime": 1791553134,
+  "rong": 1080,
+  "cao": 1080,
+  "huong": "vuong",
+  "mau_trung_binh": "#A6512E",
+  "logo": false,
+  "kb_640": 58
+ },
+ "sam-ngoc-linh-mat-ong-600-2": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\sam-ngoc-linh-mat-ong-600-2.jpg",
+  "mtime": 1791553132,
+  "rong": 1280,
+  "cao": 1265,
+  "huong": "vuong",
+  "mau_trung_binh": "#C1C29A",
+  "logo": false,
+  "kb_640": 46
+ },
+ "sam-ngoc-linh-mat-ong-600": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\sam-ngoc-linh-mat-ong-600.png",
+  "mtime": 1791553132,
+  "rong": 1080,
+  "cao": 1080,
+  "huong": "vuong",
+  "mau_trung_binh": "#A75035",
+  "logo": false,
+  "kb_640": 59
+ },
+ "sam-ngoc-linh-ngam-mat-ong-2": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\sam-ngoc-linh-ngam-mat-ong-2.png",
+  "mtime": 1791553134,
+  "rong": 1080,
+  "cao": 1080,
+  "huong": "vuong",
+  "mau_trung_binh": "#A44F32",
+  "logo": false,
+  "kb_640": 58
+ },
+ "sam-ngoc-linh-ngam-mat-ong": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\sam-ngoc-linh-ngam-mat-ong.png",
+  "mtime": 1791553133,
+  "rong": 1080,
+  "cao": 1080,
+  "huong": "vuong",
+  "mau_trung_binh": "#A44F32",
+  "logo": false,
+  "kb_640": 58
+ },
+ "tinh-chat-sam-ngoc-linh-2": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\tinh-chat-sam-ngoc-linh-2.jpg",
+  "mtime": 1791553136,
+  "rong": 2400,
+  "cao": 2400,
+  "huong": "vuong",
+  "mau_trung_binh": "#CC9B8B",
+  "logo": false,
+  "kb_640": 29
+ },
+ "tinh-chat-sam-ngoc-linh": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\tinh-chat-sam-ngoc-linh.jpg",
+  "mtime": 1791553136,
+  "rong": 1280,
+  "cao": 960,
+  "huong": "ngang",
+  "mau_trung_binh": "#8F371C",
+  "logo": false,
+  "kb_640": 53
+ },
+ "tra-hoa-tan-sam-ngoc-linh-duong-chat-tu": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\tra-hoa-tan-sam-ngoc-linh-duong-chat-tu-.jpg",
+  "mtime": 1791553136,
+  "rong": 2000,
+  "cao": 2000,
+  "huong": "vuong",
+  "mau_trung_binh": "#86AE84",
+  "logo": false,
+  "kb_640": 62
+ },
  "tra-la-sam": {
-  "nguon": "khach-hang/sam-vina/anh-goc/tra-la-sam.jpg",
-  "mtime": 1791536460,
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\tra-la-sam.jpg",
+  "mtime": 1791554093,
   "rong": 320,
   "cao": 430,
   "huong": "doc",
@@ -39,9 +579,19 @@
   "logo": false,
   "kb_640": 19
  },
+ "tra-sam-ngoc-linh": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\tra-sam-ngoc-linh.jpg",
+  "mtime": 1791553137,
+  "rong": 2846,
+  "cao": 2846,
+  "huong": "vuong",
+  "mau_trung_binh": "#8CA97B",
+  "logo": false,
+  "kb_640": 68
+ },
  "tra-tui-loc-goi": {
-  "nguon": "khach-hang/sam-vina/anh-goc/tra-tui-loc-goi.jpg",
-  "mtime": 1791536460,
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\tra-tui-loc-goi.jpg",
+  "mtime": 1791554093,
   "rong": 260,
   "cao": 200,
   "huong": "ngang",
@@ -50,13 +600,133 @@
   "kb_640": 10
  },
  "tra-tui-loc-hop": {
-  "nguon": "khach-hang/sam-vina/anh-goc/tra-tui-loc-hop.jpg",
-  "mtime": 1791536460,
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\tra-tui-loc-hop.jpg",
+  "mtime": 1791554093,
   "rong": 310,
   "cao": 250,
   "huong": "ngang",
   "mau_trung_binh": "#6CA06B",
   "logo": false,
   "kb_640": 13
+ },
+ "vien-ngam-sam-ngoc-linh": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\vien-ngam-sam-ngoc-linh.png",
+  "mtime": 1791553126,
+  "rong": 1080,
+  "cao": 1080,
+  "huong": "vuong",
+  "mau_trung_binh": "#D0C5A6",
+  "logo": false,
+  "kb_640": 46
+ },
+ "yen-chung-dong-trung-ha-thao": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\yen-chung-dong-trung-ha-thao.jpg",
+  "mtime": 1791553140,
+  "rong": 5712,
+  "cao": 4284,
+  "huong": "ngang",
+  "mau_trung_binh": "#B67B5B",
+  "logo": false,
+  "kb_640": 32
+ },
+ "yen-chung-duong-phen": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\yen-chung-duong-phen.jpg",
+  "mtime": 1791553139,
+  "rong": 5712,
+  "cao": 4284,
+  "huong": "ngang",
+  "mau_trung_binh": "#B37C5C",
+  "logo": false,
+  "kb_640": 19
+ },
+ "yen-sao-chung-duong-phen-kid": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\yen-sao-chung-duong-phen-kid.jpg",
+  "mtime": 1791553138,
+  "rong": 4032,
+  "cao": 3024,
+  "huong": "ngang",
+  "mau_trung_binh": "#A57B66",
+  "logo": false,
+  "kb_640": 28
+ },
+ "yen-sao-chung-theo-yeu-cau": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\yen-sao-chung-theo-yeu-cau.png",
+  "mtime": 1791553142,
+  "rong": 800,
+  "cao": 800,
+  "huong": "vuong",
+  "mau_trung_binh": "#BCC0AA",
+  "logo": false,
+  "kb_640": 42
+ },
+ "yen-sao-collagen": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\yen-sao-collagen.jpg",
+  "mtime": 1791553138,
+  "rong": 5712,
+  "cao": 4284,
+  "huong": "ngang",
+  "mau_trung_binh": "#B56F54",
+  "logo": false,
+  "kb_640": 31
+ },
+ "yen-sao-rut-long-100g": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\yen-sao-rut-long-100g.jpg",
+  "mtime": 1791553141,
+  "rong": 843,
+  "cao": 1280,
+  "huong": "doc",
+  "mau_trung_binh": "#A0A786",
+  "logo": false,
+  "kb_640": 37
+ },
+ "yen-sao-rut-long-50g": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\yen-sao-rut-long-50g.jpg",
+  "mtime": 1791553140,
+  "rong": 823,
+  "cao": 1280,
+  "huong": "doc",
+  "mau_trung_binh": "#97AB8A",
+  "logo": false,
+  "kb_640": 30
+ },
+ "yen-sao-rut-long-kho": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\yen-sao-rut-long-kho.jpg",
+  "mtime": 1791553141,
+  "rong": 796,
+  "cao": 1280,
+  "huong": "doc",
+  "mau_trung_binh": "#99A882",
+  "logo": false,
+  "kb_640": 34
+ },
+ "yen-sao-tinh-che": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\yen-sao-tinh-che.jpg",
+  "mtime": 1791553141,
+  "rong": 786,
+  "cao": 1280,
+  "huong": "doc",
+  "mau_trung_binh": "#A6A576",
+  "logo": false,
+  "kb_640": 35
+ },
+ "yen-tho-nguyen-to": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\yen-tho-nguyen-to.png",
+  "mtime": 1791553140,
+  "rong": 800,
+  "cao": 800,
+  "huong": "vuong",
+  "mau_trung_binh": "#BABBB7",
+  "logo": false,
+  "kb_640": 29
+ },
+ "yen-tuoi-tinh-che": {
+  "nguon": "khach-hang\\sam-vina\\anh-goc\\yen-tuoi-tinh-che.jpg",
+  "mtime": 1791553142,
+  "rong": 500,
+  "cao": 502,
+  "huong": "vuong",
+  "mau_trung_binh": "#968E83",
+  "logo": false,
+  "kb_640": 27
  }
 }

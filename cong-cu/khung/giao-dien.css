@@ -91,6 +91,7 @@ section{position:relative}
   background-size:56px 56px;-webkit-mask-image:radial-gradient(ellipse 80% 60% at 50% 30%,#000 30%,transparent 75%);mask-image:radial-gradient(ellipse 80% 60% at 50% 30%,#000 30%,transparent 75%);opacity:.7}
 @keyframes troi{50%{transform:translate(-40px,40px) scale(1.08)}}
 .hero-wrap{display:grid;gap:40px;align-items:center}
+.hero-wrap>*{min-width:0}   /* phần tử con của grid mặc định min-width:auto → nút/nhãn nowrap đẩy cột rộng hơn màn hình */
 .badge{display:inline-flex;align-items:center;gap:10px;padding:6px 16px 6px 6px;border-radius:999px;border:1px solid var(--stroke2);background:rgba(255,255,255,.7);font-size:.9rem;color:var(--lite);max-width:100%}
 .badge b{background:var(--grad);color:#fff;font-weight:600;padding:3px 10px;border-radius:999px;font-size:.8rem;flex:none}
 .badge span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -100,7 +101,7 @@ section{position:relative}
 .hero-diem div{display:flex;align-items:center;gap:8px;font-size:.98rem;color:var(--ink)}
 .hero-diem i{width:26px;height:26px;border-radius:8px;background:rgba(var(--rgb),.12);border:1px solid rgba(var(--rgb),.35);color:var(--cd);display:grid;place-items:center;font-style:normal;font-size:.8rem;font-weight:700}
 .hero-nut{display:flex;gap:12px;flex-wrap:wrap}
-.hero-nut .btn{flex:1 1 auto}
+.hero-nut .btn{flex:1 1 auto;min-width:0}
 
 /* Thẻ bìa: ảnh sản phẩm thay nhau, nghiêng theo chuột */
 .san-khau{position:relative;perspective:1200px}
@@ -187,6 +188,21 @@ section{position:relative}
 .gia{color:var(--cd);font-weight:700;font-size:.95rem;margin-top:auto}
 .gia.lien-he{color:var(--grey);font-weight:600}
 .xem{color:var(--cd);font-size:.88rem;font-weight:600;display:inline-flex;gap:6px;transition:gap .3s}
+
+.chua-anh{width:100%;height:100%;display:grid;place-content:center;gap:4px;text-align:center;padding:12px;
+  background:linear-gradient(135deg,rgba(var(--rgb),.10),rgba(var(--rgb),.03));color:var(--cdh);font:600 1rem var(--f-tieu-de)}
+.chua-anh small{font:500 .875rem var(--f-than);color:var(--grey)}
+
+/* ─── Chứng nhận: giấy tờ nằm trọn, chạm để xem lớn ─── */
+.nen-nhat{background:var(--panel)}
+.luoi-cn{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.o-cn{display:flex;flex-direction:column;gap:10px;padding:10px;border-radius:var(--r-xl);background:#fff;border:1px solid var(--stroke);color:var(--ink);text-align:center}
+.o-cn .khung-cn{aspect-ratio:3/4;display:grid;place-items:center;overflow:hidden;border-radius:10px;background:#fff}
+.o-cn img{width:100%;height:100%;object-fit:contain}
+.o-cn b{font-size:.92rem;font-weight:600;line-height:1.35}
+@media (min-width:600px){.luoi-cn{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}}
+@media (min-width:992px){.luoi-cn{grid-template-columns:repeat(5,minmax(0,1fr))}.o-cn{transition:transform .4s var(--eo),box-shadow .4s}
+  .o-cn:hover{transform:translateY(-6px);box-shadow:0 20px 40px -20px rgba(var(--rgb),.35)}}
 
 /* ─── Số liệu đếm (CHỈ hiện khi web.json có số thật) ─── */
 .luoi-so{display:grid;border-radius:28px;border:1px solid var(--stroke);overflow:hidden;background:var(--panel)}
